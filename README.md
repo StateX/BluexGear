@@ -1,7 +1,7 @@
 # BluexGear
 A Guilty Gear vs Blazblue M.U.G.E.N
 
-![alt text](https://i.imgur.com/KCWrUjb.gifv)
+![alt text](https://i.imgur.com/KCWrUjb.gif)
 
 
 # Characteristics:
@@ -43,5 +43,3 @@ A Guilty Gear vs Blazblue M.U.G.E.N
         IA from KyKiske is also poor.       
         
 <blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">USELESS USELESS USELESS USELESS USELESS USELESS  <a href="https://twitter.com/hashtag/MUGEN?src=hash">#MUGEN</a> 🤣🤣🤣🤣🤣🧐 <a href="https://t.co/oE6x6ETwDX">pic.twitter.com/oE6x6ETwDX</a></p>&mdash; StateX (@State_X) <a href="https://twitter.com/State_X/status/905023836978118656">5 de septiembre de 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        
