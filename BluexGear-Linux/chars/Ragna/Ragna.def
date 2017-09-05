@@ -1,0 +1,38 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Ragna"
+displayname ="Ragna The Bloodedge"
+versiondate =8/20/2010
+mugenversion = 
+author ="Jeff Loco's"
+pal.defaults =1,2,3,4,5,6,7,8,9,10,11,12
+
+[Files]
+sprite =Ragna.sff
+anim =Ragna.air
+sound =Ragna.snd
+cmd =Ragna.cmd
+cns =Ragna.cns
+stcommon =Ragna_common1.cns
+st =Ragna.cns
+pal1=Preta.act
+pal2=Branca.act
+pal3=Verde.act
+pal4=Original.act
+pal5=Azul.act
+pal6=Kasuki.act
+pal7=Marrom.act
+pal8=Rosa.act
+pal9=Coringa.act
+pal10=ReiNantoSeken.act
+pal11=Vinho.act
+pal12=Mal.act
+st1=Ragna_-2.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

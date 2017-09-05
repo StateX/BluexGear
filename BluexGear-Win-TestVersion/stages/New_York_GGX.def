@@ -1,0 +1,150 @@
+[Info]
+name = "New York GGX"
+
+[Camera]
+startx = 0                     ;カメラ開始位置
+starty = 0
+boundleft = -220
+boundright = 227
+boundhigh = -260
+boundlow = 0
+verticalfollow = 1.1
+tension = 50
+floortension = 116
+
+[PlayerInfo]
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000
+rightbound =  1000
+topbound  =  0
+botbound  =  0
+
+[Scaling]
+topz     = 0
+botz     = 50
+topscale = 1
+botscale = 1.2
+
+[Bound]
+screenleft = 15
+screenright = 15
+
+[StageInfo]
+zoffset = 218　　　  　　　　;地面
+autoturn = 3                 ;影の長さ
+resetBG = -90
+Hires = 1
+
+[Shadow]                     ;影
+color = 100,100,100
+yscale = .47
+reflect = 0
+
+[Music]
+bgmusic =  sound/Fatal_duel.mp3
+bgvolume = 255
+
+[BGdef]
+spr = stages/New_York_GGX.sff
+
+;__________________________________________________________________________________________
+
+[BG mount]
+type = normal
+spriteno = 0, 3
+layerno = 0
+start = -509, 0
+delta = .2, 0
+trans = none
+mask = 1
+
+[BG build]
+type = normal
+spriteno = 0, 2
+layerno = 
+start = -509, -197
+delta = .56, 1.1
+trans = none
+mask = 1
+
+[BG free]
+type = normal
+spriteno = 0, 1
+layerno = 0
+start = -242, -370
+delta = 1.38, 1.38
+trans = none
+mask = 1
+
+[BG streets]
+type = normal
+spriteno = 0, 0
+layerno = 0
+start = -761, -80
+delta = 2, 2
+trans = none
+mask = 1
+
+[BG left chain]
+type = normal
+spriteno = 0, 4
+layerno = 0
+start = -826, 310
+delta = 2.3, 2.2
+trans = none
+mask = 1
+
+[BG left chain]
+type = normal
+spriteno = 0, 4
+layerno = 0
+start = -826, 310
+delta = 2.3, 2.2
+trans = sub
+mask = 1
+
+
+[BG left chain]
+type = normal
+spriteno = 0, 4
+layerno = 1
+start = -826, 310
+delta = 2.3, 2.2
+trans = add1
+mask = 1
+
+[BG light chain]
+type = normal
+spriteno = 0, 5
+layerno = 0
+start = 485,316
+delta = 2.3, 2.2
+trans = none
+mask = 1
+
+[BG light chain]
+type = normal
+spriteno = 0, 5
+layerno = 0
+start = 485,316
+delta = 2.3, 2.2
+trans = sub
+mask = 1
+
+[BG light chain]
+type = normal
+spriteno = 0, 5
+layerno = 1
+start = 485,316
+delta = 2.3, 2.2
+trans = add1
+mask = 1

@@ -1,0 +1,32 @@
+[Info]
+name = "millia"
+displayname = "Millia"
+versiondate = 10,22,2006
+mugenversion = 04,14,2002
+author = "muteki"
+pal.defaults = 1
+
+[Files]
+cmd     = millia.cmd   ;Command set
+cns     = millia_const.txt   ;Constants
+st      = millia.cns   ;States
+st2     = AI.txt
+stcommon = common1.cns ;Common states
+sprite  = millia.sff   ;Sprite
+anim    = millia.air   ;Animation
+sound   = millia.snd
+pal1    = millia01.act
+pal2    = millia02.act
+pal3    = millia03.act
+pal4    = millia04.act
+pal5    = millia05.act
+pal6    = millia06.act
+pal7    = millia07.act
+pal8    = millia08.act
+pal9    = millia09.act
+pal10   = millia10.act
+pal11   = millia11.act
+pal12   = millia12.act
+
+[Arcade]
+

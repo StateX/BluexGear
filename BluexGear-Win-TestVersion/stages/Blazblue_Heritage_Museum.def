@@ -1,0 +1,619 @@
+;______________________________________________________________
+;INFORMACION
+;--------------------------------------------------------------------------------------------------------------
+[Info]
+name ="Blazblue_Heritage_Museum"
+;author= "Darek"
+;Web=mugenimperiolatino.com
+;________________________________________________________________
+;PARAMETROS
+;---------------------------------------------------------------------------------------------------------------
+[Camera]
+startx =0
+starty =0
+boundleft  =-230
+boundright = 230
+boundhigh  =-115
+boundlow   = 0
+verticalfollow = .95
+floortension = 60
+tension =50
+[PlayerInfo]
+p1startx =-70
+p1starty =0
+p1startz =0
+p1facing =1
+p2startx =70
+p2starty =0
+p2startz =0
+p2facing =-1
+leftbound =-1000
+rightbound =1000
+topbound =0
+botbound =0
+[Scaling]
+topz =0
+botz =50
+topscale =1
+botscale =1.2
+[Bound]
+screenleft  =15
+screenright =15
+[StageInfo]
+zoffset  = 220
+autoturn = 1
+resetBG  = 0
+Hires=1
+[Shadow]
+intensity = 175
+yscale =-.07
+fade.range = -300,-50
+[Reflection]
+intensity = 0
+[Music]
+bgmusic  =sound/Alexandrite.mp3
+bgvolume = 255
+;----------------------------------------------------------------------
+[BGdef]
+spr =Blazblue_Heritage_Museum.sff
+debugbg = 0
+;-----------------------------------------------------------------------------------
+:CODIGOS
+;-----------------------------------------------------------------------------------
+[BG HM]
+type =normal
+spriteno =3,0
+start = 80,-180
+delta = 1,1.1
+mask=1
+[BG HM]
+type =normal
+spriteno =3,1
+start = 80,-180
+delta = 1,1.1
+mask=1
+[BG HM]
+type =normal
+spriteno =5,0
+start = 80,-180
+delta = 1,1.1
+trans=addalpha
+alpha=200,100
+[BG HM]
+type =normal
+spriteno =4,0
+start = -270,-150
+delta = 1.15,1.1
+mask =1
+[BG HM]
+type =normal
+spriteno =4,1
+start = -270,-150
+delta = 1.15,1.1
+mask =1
+trans=add
+[BG HM]
+type =normal
+spriteno =4,2
+start = -270,-150
+delta = 1.15,1.1
+mask =1
+trans=add
+[BG HM]
+type =normal
+spriteno =1,0
+start = -350,-150
+delta = 1.35,1.3
+mask =1
+Id=3
+[BG HM]
+type =normal
+spriteno =1,1
+start = -350,-150
+delta = 1.35,1.3
+mask =1
+trans=add
+Id=3
+[BG HM]
+type =normal
+spriteno =1,2
+start = -350,-150
+delta = 1.35,1.3
+mask =1
+trans=add
+Id=3
+[BG HM]
+type =anim
+actionno=3
+start = -350,-150
+delta = 1.35,1.3
+[BG HM]
+type =anim
+actionno=4
+start = -350,-150
+delta = 1.35,1.3
+[BG HM]
+type =normal
+spriteno =2,0
+start = 100,150
+delta = 1.5,1.3
+mask =1
+[BG HM]
+type =normal
+spriteno =2,1
+start = 100,150
+delta = 1.5,1.3
+mask =1
+[BG HM]
+type =normal
+spriteno =2,2
+start = 100,150
+delta = 1.5,1.3
+mask =1
+[BG HM]
+type =normal
+spriteno =0,0
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,1
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,2
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,3
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,4
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,5
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,6
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,7
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,8
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,9
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,10
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,11
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,12
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,13
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,14
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =normal
+spriteno =0,15
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =anim
+actionno=5
+start = -490,-150
+delta = 2,2
+[BG HM]
+type =anim
+actionno=6
+start = -490,-150
+delta = 2,2
+[BG HM]
+type =anim
+actionno=7
+start = -490,-150
+delta = 2,2
+[BG HM]
+type =anim
+actionno=8
+start = -490,-150
+delta = 2,2
+[BG HM]
+type =normal
+spriteno =6,0
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =anim
+actionno=1
+start = -97,30
+delta = 2,2
+Id=1
+[BG HM]
+type =normal
+spriteno =8,1
+start = -490,-150
+delta = 2,2
+mask =1
+[BG HM]
+type =anim
+actionno=2
+start = -490,-150
+delta = 2,2
+Id=2
+[BGCtrlDef HM]
+ctrlID = 1
+looptime = 286
+[BGCtrl]
+type = SinY
+time = 175
+value = 1,5,0
+[BGCtrl]
+type = SinX
+time = 175
+value = 1,5,0
+[BGCtrl]
+type = SinY
+time = 200
+value = 0,0,0
+[BGCtrl]
+type = SinX
+time = 200
+value = 0,0,0
+[BGCtrlDef HM]
+ctrlID = 2
+looptime = 245
+[BGCtrl]
+type = Enable
+time = 0
+value=1
+[BGCtrl]
+type = SinY
+time = 139
+value = 1,5,0
+[BGCtrl]
+type = SinX
+time = 139
+value = 1,5,0
+[BGCtrl]
+type = SinY
+time = 145
+value = 0,0,0
+[BGCtrl]
+type = SinX
+time = 145
+value = 0,0,0
+[BGCtrl]
+type = Enable
+time = 235
+value=0
+[BGCtrl]
+type = Enable
+time = 240
+value=1
+[BG HM]
+type =anim
+actionno=78
+start = -10,-170
+delta = 0,0
+layerno=1
+[BG HM]
+type =anim
+actionno=79
+start = 3,70
+delta = 0,0
+layerno=1
+[BG HM]
+type =anim
+actionno=80
+start = 255,385
+delta = 0,0
+layerno=1
+[BG HM]
+type =anim
+actionno=81
+start = -258,-170
+delta = 0,0
+layerno=1
+;-----------------------------------------------------------------------------------
+:ANIMACIONES
+;-----------------------------------------------------------------------------------
+[Begin Action 1]
+7,0,0,0,3,,AS150D256    
+7,1,0,0,3,,AS250D256    
+7,2,0,0,3,,AS150D256     
+7,3,0,0,3,,AS250D256    
+7,4,0,0,3,,AS150D256     
+7,5,0,0,3,,AS250D256    
+7,6,0,0,3,,AS150D256     
+7,7,0,0,3,,AS250D256    
+7,8,0,0,3,,AS150D256    
+7,9,0,0,3,,AS250D256    
+7,10,0,0,3,,AS150D256   
+7,11,0,0,3,,AS250D256   
+7,12,0,0,3,,AS150D256   
+7,13,0,0,3,,AS250D256   
+7,14,0,0,3,,AS150D256    
+7,15,0,0,3,,AS250D256   
+7,16,0,0,3,,AS150D256  
+7,17,0,0,3,,AS250D256   
+7,18,0,0,3,,AS150D256  
+7,19,0,0,3,,AS250D256   
+7,20,0,0,3,,AS150D256    
+7,21,0,0,3,,AS250D256   
+7,22,0,0,3,,AS150D256 
+7,23,0,0,3,,AS250D256   
+7,24,0,0,3,,AS150D256    
+7,25,0,0,3,,AS250D256   
+7,26,0,0,3,,AS150D256   
+7,27,0,0,3,,AS250D256   
+7,28,0,0,3,,AS150D256    
+7,29,0,0,3,,AS250D256   
+7,30,0,0,3,,AS250D256 
+7,0,0,0,3,,AS150D256    
+7,1,0,0,3,,AS250D256    
+7,2,0,0,3,,AS150D256     
+7,3,0,0,3,,AS250D256    
+7,4,0,0,3,,AS150D256     
+7,5,0,0,3,,AS250D256    
+7,6,0,0,3,,AS150D256     
+7,7,0,0,3,,AS250D256    
+7,8,0,0,3,,AS150D256    
+7,9,0,0,3,,AS250D256    
+7,10,0,0,3,,AS150D256   
+7,11,0,0,3,,AS250D256   
+7,12,0,0,3,,AS150D256   
+7,13,0,0,3,,AS250D256   
+7,14,0,0,3,,AS150D256    
+7,15,0,0,3,,AS250D256   
+7,16,0,0,3,,AS150D256  
+7,17,0,0,3,,AS250D256   
+7,18,0,0,3,,AS150D256  
+7,19,0,0,3,,AS250D256   
+7,20,0,0,3,,AS150D256    
+7,21,0,0,3,,AS250D256   
+7,22,0,0,3,,AS150D256 
+7,23,0,0,3,,AS250D256   
+7,24,0,0,3,,AS150D256    
+7,25,0,0,3,,AS250D256   
+7,26,0,0,3,,AS150D256   
+7,27,0,0,3,,AS250D256   
+7,28,0,0,3,,AS150D256    
+7,29,0,0,3,,AS250D256   
+7,30,0,0,3,,AS250D256 
+7,0,0,0,3,,S 
+7,1,0,0,3,,AS250D256    
+7,2,0,0,3,,S  
+7,3,0,0,3,,AS250D256    
+7,4,0,0,3,,AS150D256     
+7,5,0,0,3,,AS250D256    
+7,6,0,0,3,,S  
+7,7,0,0,3,,AS250D256    
+7,8,0,0,3,,AS150D256    
+7,9,0,0,3,,AS250D256    
+7,10,0,0,3,,AS150D256   
+7,11,0,0,3,,AS250D256   
+7,12,0,0,3,S
+7,13,0,0,3,,AS250D256   
+7,14,0,0,3,,AS150D256    
+7,15,0,0,3,,AS250D256   
+7,16,0,0,3,,AS150D256  
+7,17,0,0,3,,S 
+7,18,0,0,3,,AS150D256  
+7,19,0,0,3,,AS250D256   
+7,20,0,0,3,,AS150D256    
+7,21,0,0,3,,AS250D256   
+7,22,0,0,3,,S
+7,23,0,0,3,,AS250D256   
+7,24,0,0,3,,AS150D256    
+7,25,0,0,3,,AS250D256   
+7,26,0,0,3,,AS150D256   
+7,27,0,0,3,,AS250D256   
+7,28,0,0,3,,AS150D256    
+7,29,0,0,3,,AS250D256   
+7,30,0,0,3,,S 
+7,0,0,0,3,,AS150D256    
+7,1,0,0,3,,AS250D256    
+7,2,0,0,3,,AS150D256     
+7,3,0,0,3,,AS250D256    
+7,4,0,0,3,,AS150D256     
+7,5,0,0,3,,AS250D256    
+7,6,0,0,3,,AS150D256     
+7,7,0,0,3,,AS250D256    
+7,8,0,0,3,,AS150D256    
+7,9,0,0,3,,AS250D256    
+7,10,0,0,3,,AS150D256   
+7,11,0,0,3,,AS250D256   
+7,12,0,0,3,,AS150D256   
+7,13,0,0,3,,AS250D256   
+7,14,0,0,3,,AS150D256    
+7,15,0,0,3,,AS250D256   
+7,16,0,0,3,,AS150D256  
+7,17,0,0,3,,AS250D256   
+7,18,0,0,3,,AS150D256  
+7,19,0,0,3,,AS250D256   
+7,20,0,0,3,,AS150D256    
+7,21,0,0,3,,AS250D256   
+7,22,0,0,3,,AS150D256 
+7,23,0,0,3,,AS250D256   
+7,24,0,0,3,,AS150D256    
+7,25,0,0,3,,AS250D256   
+7,26,0,0,3,,AS150D256   
+7,27,0,0,3,,AS250D256   
+7,28,0,0,3,,AS150D256    
+7,29,0,0,3,,AS250D256   
+7,30,0,0,3,,AS250D256   
+[Begin Action 2]
+8,0,0,0,3,,AS100D256    
+8,0,0,0,3,,AS250D256  
+[Begin Action 3]
+9,0,0,0,3,,AS80D256    
+9,0,0,0,3,,AS50D256 
+[Begin Action 4]
+9,1,0,0,3,,AS80D256    
+9,1,0,0,3,,AS50D256 
+[Begin Action 5]
+10,0,0,0,3,,AS100D256    
+10,0,0,0,3,,AS50D256 
+[Begin Action 6]
+10,1,0,0,3,,AS80D256    
+10,1,0,0,3,,AS50D256 
+[Begin Action 7]
+10,2,0,0,3,,AS80D256    
+10,2,0,0,3,,AS50D256 
+[Begin Action 8]
+10,3,0,0,3,,AS80D256    
+10,3,0,0,3,,AS50D256 
+[Begin Action 78]
+11,0,0,0,25,,AS250D0
+11,0,0,0,5,,AS250D10
+11,0,0,0,5,,AS250D20
+11,0,0,0,5,,AS250D30
+11,0,0,0,5,,AS250D40
+11,0,0,0,5,,AS250D50
+11,0,0,0,5,,AS250D60
+11,0,0,0,5,,AS250D70
+11,0,0,0,5,,AS250D80
+11,0,0,0,5,,AS250D90
+11,0,0,0,5,,AS250D100
+11,0,0,0,5,,AS250D110
+11,0,0,0,5,,AS250D120
+11,0,0,0,5,,AS250D130
+11,0,0,0,5,,AS250D140
+11,0,0,0,5,,AS250D150
+11,0,0,0,5,,AS250D160
+11,0,0,0,5,,AS250D170
+11,0,0,0,5,,AS250D180
+11,0,0,0,5,,AS250D190
+11,0,0,0,5,,AS250D200
+11,0,0,0,5,,AS250D210
+11,0,0,0,5,,AS250D220
+11,0,0,0,5,,AS250D230
+11,0,0,0,5,,AS250D240
+11,0,0,0,5,,AS250D250
+11,0,0,0,5,,AS250D256
+-1,0,0,0,-1
+[Begin Action 79]
+12,0,0,0,25,,AS250D256
+12,0,0,0,5,,AS250D256
+12,0,0,0,5,,AS240D256
+12,0,0,0,5,,AS230D256
+12,0,0,0,5,,AS220D256
+12,0,0,0,5,,AS210D256
+12,0,0,0,5,,AS200D256
+12,0,0,0,5,,AS190D256
+12,0,0,0,5,,AS180D256
+12,0,0,0,5,,AS170D256
+12,0,0,0,5,,AS160D256
+12,0,0,0,5,,AS150D256
+12,0,0,0,5,,AS140D256
+12,0,0,0,5,,AS130D256
+12,0,0,0,5,,AS120D256
+12,0,0,0,5,,AS110D256
+12,0,0,0,5,,AS100D256
+12,0,0,0,5,,AS90D256
+12,0,0,0,5,,AS80D256
+12,0,0,0,5,,AS70D256
+12,0,0,0,5,,AS60D256
+12,0,0,0,5,,AS50D256
+12,0,0,0,5,,AS40D256
+12,0,0,0,5,,AS30D256
+12,0,0,0,5,,AS20D256
+12,0,0,0,5,,AS10D256
+-1,0,0,0,-1
+[Begin Action 80]
+12,1,0,0,25,,AS250D256
+12,1,0,0,5,,AS250D256
+12,1,0,0,5,,AS240D256
+12,1,0,0,5,,AS230D256
+12,1,0,0,5,,AS220D256
+12,1,0,0,5,,AS210D256
+12,1,0,0,5,,AS200D256
+12,1,0,0,5,,AS190D256
+12,1,0,0,5,,AS180D256
+12,1,0,0,5,,AS170D256
+12,1,0,0,5,,AS160D256
+12,1,0,0,5,,AS150D256
+12,1,0,0,5,,AS140D256
+12,1,0,0,5,,AS130D256
+12,1,0,0,5,,AS120D256
+12,1,0,0,5,,AS110D256
+12,1,0,0,5,,AS100D256
+12,1,0,0,5,,AS90D256
+12,1,0,0,5,,AS80D256
+12,1,0,0,5,,AS70D256
+12,1,0,0,5,,AS60D256
+12,1,0,0,5,,AS50D256
+12,1,0,0,5,,AS40D256
+12,1,0,0,5,,AS30D256
+12,1,0,0,5,,AS20D256
+12,1,0,0,5,,AS10D256
+-1,0,0,0,-1
+[Begin Action 81]
+11,1,0,0,2,,AS250D0
+11,1,0,0,2,,AS250D20
+11,1,0,0,2,,AS250D40
+11,1,0,0,2,,AS250D60
+11,1,0,0,2,,AS250D80
+11,1,0,0,2,,AS250D100
+11,1,0,0,2,,AS250D120
+11,1,0,0,2,,AS250D140
+11,1,0,0,2,,AS250D160
+11,1,0,0,2,,AS250D180
+11,1,0,0,2,,AS250D200
+11,1,0,0,2,,AS250D220
+11,1,0,0,2,,AS250D240
+11,1,0,0,2,,AS250D256
+-1,0,0,0,-1
+;______________________________________________
+;FIN DEL ARCHIVO DEF
+;--------------------------------------------------------------------------------

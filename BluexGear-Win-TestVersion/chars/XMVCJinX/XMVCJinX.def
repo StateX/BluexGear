@@ -1,0 +1,19 @@
+[Info]
+name="Jinnu"
+displayname="Jin Kisaragi"
+versiondate=1/4/10
+mugenversion=14,04,2002
+author="kal"
+pal.defaults=1
+[Files]
+sprite=XMVCJinX.sff
+sound=XMVCJinX.snd
+anim=XMVCJinX.air
+cmd=XMVCJinX.cmd
+cns=XMVCJinX.cns
+st=XMVCJinX.cns
+stcommon=common1.cns
+pal1=Jin1.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=

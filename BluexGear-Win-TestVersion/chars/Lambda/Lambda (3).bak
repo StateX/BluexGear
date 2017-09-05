@@ -1,0 +1,19 @@
+[Info]
+name="Murakumo 12"
+displayname="Lambda"
+versiondate=3/11/11
+mugenversion=06,14,2003
+author="kal"
+pal.defaults=1
+[Files]
+sprite=Murakumo 12.sff
+sound=Murakumo 12.snd
+anim=Murakumo 12.air
+cmd=Murakumo 12.cmd
+cns=Murakumo 12.cns
+st=Murakumo 12.cns
+stcommon=common1.cns
+pal1=Lambda_01.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=

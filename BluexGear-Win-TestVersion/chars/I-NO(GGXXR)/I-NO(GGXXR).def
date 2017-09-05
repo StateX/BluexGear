@@ -1,0 +1,31 @@
+[Info]
+name = "I-NO"
+displayname = "I-NO"
+versiondate = 05,07,2007
+mugenversion = 04,14,2002
+author = "muteki"
+
+[Files]
+cmd     = ino.cmd   ;Command set
+cns     = ino_const.txt   ;Constants
+st      = ino.cns   ;States
+st1     = boss.txt
+stcommon = common1.cns ;Common states
+sprite  = ino.sff   ;Sprite
+anim    = ino.air   ;Animation
+sound   = ino.snd   ;Sound
+pal1    = ino01.act
+pal2    = ino02.act
+pal3    = ino03.act
+pal4    = ino04.act
+pal5    = ino05.act
+pal6    = ino06.act
+pal7    = ino07.act
+pal8    = ino08.act
+pal9    = ino09.act
+pal10   = ino10.act
+pal11   = ino11.act
+pal12   = ino12.act
+
+[Arcade]
+

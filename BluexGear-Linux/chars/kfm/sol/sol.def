@@ -1,0 +1,28 @@
+[Info]
+name         = "sol"
+displayname  = "sol"
+versiondate  = 04,13,2002
+mugenversion = 04,14,2001
+author       = "[fraya]"
+
+
+[Files]
+cmd          = sol.cmd
+cns          = sol.cns
+st           = sol.cns
+stcommon     = common1.cns
+sprite       = sol.sff
+anim         = sol.air
+sound        = sol.snd
+pal4         = sol00.act
+pal5         = sol01.act
+pal6         = sol02.act
+pal1         = sol03.act
+pal2         = sol04.act
+pal3         = sol05.act
+pal7         = sol06.act
+pal8         = sol07.act
+pal9         = sol08.act
+pal10         = sol09.act
+pal11         = sol10.act
+pal12         = sol11.act

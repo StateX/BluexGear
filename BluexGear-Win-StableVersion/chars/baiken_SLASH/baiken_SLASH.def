@@ -1,0 +1,32 @@
+[Info]
+name = "baiken"
+displayname = "Baiken"
+versiondate = 08,01,2006
+mugenversion = 04,14,2002
+author = "muteki"
+pal.defaults = 1
+
+[Files]
+cmd     = baiken.cmd   ;Command set
+cns     = baiken_const.txt   ;Constants
+st      = baiken.cns   ;States
+st2     = AI.txt
+stcommon = common1.cns ;Common states
+sprite  = baiken.sff   ;Sprite
+anim    = baiken.air   ;Animation
+sound   = baiken.snd   ;Sound
+pal1    = baiken01.act
+pal2    = baiken02.act
+pal3    = baiken03.act
+pal4    = baiken04.act
+pal5    = baiken05.act
+pal6    = baiken06.act
+pal7    = baiken07.act
+pal8    = baiken08.act
+pal9    = baiken09.act
+pal10    = baiken10.act
+pal11    = baiken11.act
+pal12    = baiken12.act
+
+[Arcade]
+

@@ -1,0 +1,1529 @@
+;軽く仕上げて終わるつもりがかなりの時間を食われてしまいました
+;ステージ作るのもめんどいね
+
+[Info]
+name ="Grove GGX"
+author="Neat Unsou"
+
+[Camera]
+startx =0
+starty =0
+boundleft  = -221
+boundright = 221
+boundhigh  = -257
+boundlow   = 0
+tension =50
+verticalfollow =0.93
+floortension = 116
+
+[PlayerInfo]
+p1startx =-70
+p1starty =0
+p1startz =0
+p1facing =1
+
+p2startx =70
+p2starty =0
+p2startz =0
+p2facing =-1
+
+leftbound =-1000
+rightbound =1000
+topbound =0
+botbound =0
+
+
+[Scaling]
+topz =0
+botz =50
+topscale =1
+botscale =1.2
+
+
+[Bound]
+screenleft  =15
+screenright =15
+
+[StageInfo]
+zoffset = 222　　　  　　　　;地面
+autoturn = 2                 ;影の長さ
+resetBG = 0
+HIres = 1
+
+[Shadow]                     ;影
+color = 100,100,100
+yscale = .24
+reflect = 1
+
+[Music]
+bgmusic  = sound/Awe_of_she GGX.mp3
+bgvolume = 255
+
+;----------------------------------------------------------------------
+[BGdef]
+spr = Grove_GGX.sff
+debugbg = 1
+
+[BG body00]
+type = normal
+spriteno =0,0
+layerno = 0
+start = -426,-128
+delta = .99,1.02
+trans = none
+mask = 0
+
+[BG wall01]
+type = anim
+layerno = 0
+actionno = 1
+start = -4,197
+delta = 2,2
+trans = None 
+mask = 0
+
+[BG body01]
+type = normal
+spriteno =0,1
+layerno = 0
+start = 0,197
+delta = 2,2
+trans = none
+mask = 1
+
+[BG body01]
+type = normal
+spriteno =10,0
+layerno = 0
+start = 0,197
+delta = 2,2
+trans = none
+mask = 1
+
+
+[BG body01]
+type = normal
+spriteno =10,1
+layerno = 0
+start = 0,197
+delta = 2,2
+trans = none
+mask = 1
+
+
+[BG body01]
+type = normal
+spriteno =10,2
+layerno = 0
+start = 0,197
+delta = 2,2
+trans = none
+mask = 1
+
+[BG body01]
+type = normal
+spriteno =10,3
+layerno = 0
+start = 0,197
+delta = 2,2
+trans = none
+mask = 1
+
+[BG body01]
+type = normal
+spriteno =10,4
+layerno = 0
+start = 0,197
+delta = 2,2
+trans = none
+mask = 1
+
+[BG wall02]
+type = anim
+layerno = 0
+actionno = 2
+start = 0,197
+delta = 2,2
+trans = None 
+mask = 1
+
+[BG wall03]
+type = anim
+layerno = 0
+actionno = 3
+start = 0,197
+delta = 2,2
+trans = None 
+mask = 1
+
+[BG wall04]
+type = anim
+layerno = 0
+actionno = 4
+start = 0,197
+delta = 2,2
+trans = None 
+mask = 1
+
+[BG wall05]
+type = anim
+layerno = 0
+actionno = 55
+start = -56,190
+delta = 2,2
+trans = None 
+mask = 1
+
+[BG wall05]
+type = anim
+layerno = 0
+actionno = 5
+start = 0,197
+delta = 2,2
+trans = None 
+mask = 1
+
+[BG obje00]
+type = normal
+spriteno =0,2
+layerno = 0
+start = 0,187
+delta = 2.2,2.2
+trans = none
+mask = 1
+tile = 0, 0
+[BG obje00]
+type = normal
+spriteno =0,2
+layerno = 0
+start = 0,187
+delta = 2.2,2.2
+trans = Sub
+mask = 1
+tile = 0, 0
+[BG obje00]
+type = normal
+spriteno =0,2
+layerno = 1
+start = 0,187
+delta = 2.2,2.2
+trans = Add1
+mask = 1
+tile = 0, 0
+
+[BG obje01]
+type = normal
+spriteno =0,3
+layerno = 0
+start = 0,202
+delta = 2.2,2.2
+trans = none
+mask = 1
+[BG obje01]
+type = normal
+spriteno =0,3
+layerno = 0
+start = 0,202
+delta = 2.2,2.2
+trans = sub
+mask = 1
+[BG obje01]
+type = normal
+spriteno =0,3
+layerno = 1
+start = 0,202
+delta = 2.2,2.2
+trans = Add1
+mask = 1
+
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = 0, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 999
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = 80, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 990
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = 140, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 997
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = 220, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 995
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = 330, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 993
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = 390, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 991
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = 460, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 996
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = 517, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 994
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = 570, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 991
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = 630, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 993
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = 720, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 990
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = 783, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 998
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = -780, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 994
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = -720, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 993
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = -670, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 995
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = -610, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 992
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = -560, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 998
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = -460, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 990
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = -410, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 991
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = -350, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 997
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = -270, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 992
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = -210, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 990
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = -130, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 996
+
+[BG ceu 01]
+type = anim
+actionno = 20
+start = -60, 480
+layerno = 1
+mask = 1
+trans = add
+delta = 2.6,3
+ID = 994
+
+
+[BG Risu]
+type = anim
+actionno = 666
+start = -960, 380
+layerno = 0
+mask = 1
+trans = None
+delta = 2,2
+ID = 666
+
+[BG Risu]
+type = anim
+actionno = 666
+start = -570, 423
+layerno = 0
+mask = 1
+trans = None
+delta = 2,2
+ID = 656
+
+[BG Risu]
+type = anim
+actionno = 658
+start = 442, 378
+layerno = 0
+mask = 1
+trans = None
+delta = 2,2
+ID = 658
+
+[BG Risu]
+type = anim
+actionno = 658
+start = 212, 408
+layerno = 0
+mask = 1
+trans = None
+delta = 2,2
+ID = 657
+
+;コントロール
+[BgCtrldef 658]
+CtrlID = 658
+looptime = 2500
+
+[BGCtrl 343]
+type = Anim
+time = 0
+value = 666
+
+[BGCtrl 343]
+type = Anim
+time = 50
+value = 663
+
+[BGCtrl 343]
+type = Anim
+time = 160
+value = 666
+
+[BGCtrl 343]
+type = Anim
+time = 290
+value = 663
+
+[BGCtrl 343]
+type = Anim
+time = 400
+value = 666
+
+[BGCtrl 343]
+type = Anim
+time = 530
+value = 663
+
+[BGCtrl 343]
+type = Anim
+time = 640
+value = 666
+
+[BGCtrl 343]
+type = Anim
+time = 770
+value = 663
+
+[BGCtrl 343]
+type = Anim
+time = 880
+value = 666
+
+[BGCtrl 343]
+type = Anim
+time = 1010
+value = 663
+
+[BGCtrl 343]
+type = Anim
+time = 1120
+value = 666
+
+[BGCtrl 343]
+type = Anim
+time = 1250
+value = 663
+
+[BGCtrl 343]
+type = Anim
+time = 1360
+value = 666
+
+[BGCtrl 343]
+type = Anim
+time = 1490
+value = 663
+
+[BGCtrl 343]
+type = Anim
+time = 1600
+value = 666
+
+[BGCtrl 343]
+type = Anim
+time = 1730
+value = 663
+
+[BGCtrl 343]
+type = Anim
+time = 1840
+value = 666
+
+[BGCtrl 343]
+type = Anim
+time = 1970
+value = 663
+
+[BGCtrl 343]
+type = Anim
+time = 2080
+value = 666
+
+
+[BGCtrl 343]
+type = Anim
+time = 2210
+value = 663
+
+[BGCtrl 343]
+type = SinX
+time = 0
+value = 230,240
+
+[BGCtrl 343]
+type = SinY
+time = 0
+value = 10,150
+
+[BGCtrl 343]
+type = SinX
+time = 2275
+value = 0
+
+[BGCtrl 343]
+type = SinY
+time = 2275
+value = 0
+
+[BGCtrl 343]
+type = Anim
+time = 2275
+value = 165
+
+
+[BgCtrldef 657]
+CtrlID = 657
+looptime = 1900
+
+[BGCtrl 343]
+type = Anim
+time = 0
+value = 658
+
+[BGCtrl 343]
+type = Anim
+time = 900
+value = 659
+
+[BGCtrl 343]
+type = Anim
+time = 1600
+value = 654
+
+[BgCtrldef 656]
+CtrlID = 656
+looptime = 6000
+
+[BGCtrl 343]
+type = Anim
+time = 0
+value = 665
+
+[BGCtrl 343]
+type = velset
+time = 2170
+x = -1.7
+
+[BGCtrl 343]
+type = Anim
+time = 2170
+value = 663
+
+[BGCtrl 343]
+type = velset
+time = 2320
+x = 0
+
+[BGCtrl 343]
+type = velset
+time = 3320
+x = 1.7
+
+[BGCtrl 343]
+type = Anim
+time = 3320
+value = 666
+
+[BGCtrl 343]
+type = velset
+time = 3440
+x = 0
+
+[BGCtrl 343]
+type = Anim
+time = 3440
+value = 665
+
+
+
+[BgCtrldef 666]
+CtrlID = 666
+looptime = 6000
+
+[BGCtrl 343]
+type = Anim
+time = 0
+value = 666
+
+[BGCtrl 343]
+type = posset
+time = 0
+x = 0
+
+[BGCtrl 343]
+type = velset
+time = 330
+x = 1.7
+
+[BGCtrl 343]
+type = velset
+time = 710
+x = 0
+
+[BGCtrl 343]
+type = Anim
+time = 710
+value = 667
+
+[BGCtrl 343]
+type = Anim
+time = 790
+value = 664
+
+[BGCtrl 343]
+type = Anim
+time = 940
+value = 668
+
+[BGCtrl 343]
+type = Anim
+time = 1140
+value = 669
+
+[BGCtrl 343]
+type = Anim
+time = 1740
+value = 663
+
+[BGCtrl 343]
+type = velset
+time = 1740
+x = -1.7
+
+[BGCtrl 343]
+type = velset
+time = 1880
+x = 0
+
+[BGCtrl 343]
+type = Anim
+time = 1880
+value = 667
+
+[BGCtrl 343]
+type = Anim
+time = 2008
+value = 665
+
+[BGCtrl 343]
+type = Anim
+time = 4740
+value = 663
+
+[BGCtrl 343]
+type = velset
+time = 4740
+x = -1.7
+
+;走る
+[Begin Action 666]
+6,3, 0,0, 6
+Loopstart
+6,4, 0,0, 6
+6,5, 0,0, 6
+6,6, 0,0, 6
+6,8, 0,0, 6
+6,7, 0,0, 6
+6,9, 0,0, 6
+
+;待機
+[Begin Action 667]
+6,0, 0,0, 30
+
+;ポケット
+[Begin Action 664]
+6,1, 0,0, 12
+6,2, 0,0, 12
+
+;ポケット
+[Begin Action 654]
+6,1, 0,0, 12,H
+6,2, 0,0, 12,H
+
+;ドングリ
+[Begin Action 668]
+6,17, 0,0, 63
+Loopstart
+6,11, 0,0, 8
+6,12, 0,0, 8
+
+
+;ドングリ逆
+[Begin Action 658]
+6,17, 0,0, 63,H
+Loopstart
+6,11, 0,0, 8,H
+6,12, 0,0, 8,H
+
+;どんぐりうめぇｗｗｗｗｗｗ
+[Begin Action 669]
+6,13, 0,0, 11
+6,14, 0,0, 11
+
+;どんぐり逆にうめぇｗｗｗｗｗｗ
+[Begin Action 659]
+6,13, 0,0, 11,H
+6,14, 0,0, 11,H
+
+
+;･･･寝るか
+[Begin Action 665]
+6,15, 0,0, 10
+6,16, 0,0, -1
+
+;走る
+[Begin Action 663]
+6,3, 0,0, 6,H
+Loopstart
+6,4, 0,0, 6,H
+6,5, 0,0, 6,H
+6,6, 0,0, 6,H
+6,8, 0,0, 6,H
+6,7, 0,0, 6,H
+6,9, 0,0, 6,H
+
+;疲れるわ
+[Begin Action 165]
+6,15, 0,0, 10
+
+[BgCtrldef 999]
+CtrlID = 999
+looptime = 3000
+
+[BGCtrl 343]
+type = SinX
+time = 0
+value = 9,140
+
+[BGCtrl 343]
+type = velset
+time = 0
+y = -0.6
+
+[BGCtrl 343]
+type = posset
+time = 0
+y = 0
+
+[BgCtrldef 998]
+CtrlID = 998
+looptime = 3130
+
+[BGCtrl 343]
+type = enable
+time = 0
+value = 0
+
+[BGCtrl 343]
+type = enable
+time = 130
+value = 1
+
+[BGCtrl 343]
+type = SinX
+time = 130
+value = 9,140
+
+[BGCtrl 343]
+type = velset
+time = 130
+y = -0.6
+
+[BGCtrl 343]
+type = posset
+time = 130
+y = 0
+
+
+[BgCtrldef 997]
+CtrlID = 997
+looptime = 2500
+
+[BGCtrl 343]
+type = enable
+time = 0
+value = 0
+
+[BGCtrl 343]
+type = enable
+time = 830
+value = 1
+
+[BGCtrl 343]
+type = SinX
+time = 830
+value = 9,140
+
+[BGCtrl 343]
+type = velset
+time = 830
+y = -0.7
+
+[BGCtrl 343]
+type = posset
+time = 830
+y = 0
+
+
+[BgCtrldef 996]
+CtrlID = 996
+looptime = 3000
+
+[BGCtrl 343]
+type = enable
+time = 0
+value = 0
+
+[BGCtrl 343]
+type = enable
+time = 1530
+value = 1
+
+[BGCtrl 343]
+type = SinX
+time = 1530
+value = 9,140
+
+[BGCtrl 343]
+type = velset
+time = 1530
+y = -0.7
+
+[BGCtrl 343]
+type = posset
+time = 1530
+y = 0
+
+
+[BgCtrldef 995]
+CtrlID = 995
+looptime = 4000
+
+[BGCtrl 343]
+type = enable
+time = 0
+value = 0
+
+[BGCtrl 343]
+type = enable
+time = 2230
+value = 1
+
+[BGCtrl 343]
+type = SinX
+time = 2230
+value = 9,140
+
+[BGCtrl 343]
+type = velset
+time = 2230
+y = -0.7
+
+[BGCtrl 343]
+type = posset
+time = 2230
+y = 0
+
+
+[BgCtrldef 994]
+CtrlID = 994
+looptime = 5000
+
+[BGCtrl 343]
+type = enable
+time = 0
+value = 0
+
+[BGCtrl 343]
+type = enable
+time = 3130
+value = 1
+
+[BGCtrl 343]
+type = SinX
+time = 3130
+value = 9,140
+
+[BGCtrl 343]
+type = velset
+time = 3130
+y = -0.8
+
+[BGCtrl 343]
+type = posset
+time = 3130
+y = 0
+
+
+[BgCtrldef 993]
+CtrlID = 993
+looptime = 6000
+
+[BGCtrl 343]
+type = enable
+time = 0
+value = 0
+
+[BGCtrl 343]
+type = enable
+time = 4030
+value = 1
+
+[BGCtrl 343]
+type = SinX
+time = 4030
+value = 9,140
+
+[BGCtrl 343]
+type = velset
+time = 4030
+y = -0.9
+
+[BGCtrl 343]
+type = posset
+time = 4030
+y = 0
+
+
+[BgCtrldef 992]
+CtrlID = 992
+looptime = 6500
+
+[BGCtrl 343]
+type = enable
+time = 0
+value = 0
+
+[BGCtrl 343]
+type = enable
+time = 4630
+value = 1
+
+[BGCtrl 343]
+type = SinX
+time = 4630
+value = 9,140
+
+[BGCtrl 343]
+type = velset
+time = 4630
+y = -0.9
+
+[BGCtrl 343]
+type = posset
+time = 4630
+y = 0
+
+[BgCtrldef 991]
+CtrlID = 991
+looptime = 7000
+
+[BGCtrl 343]
+type = enable
+time = 0
+value = 0
+
+[BGCtrl 343]
+type = enable
+time = 5030
+value = 1
+
+[BGCtrl 343]
+type = SinX
+time = 5030
+value = 9,140
+
+[BGCtrl 343]
+type = velset
+time = 5030
+y = -1
+
+[BGCtrl 343]
+type = posset
+time = 5030
+y = 0
+
+[BgCtrldef 990]
+CtrlID = 990
+looptime = 7500
+
+[BGCtrl 343]
+type = enable
+time = 0
+value = 0
+
+[BGCtrl 343]
+type = enable
+time = 5530
+value = 1
+
+[BGCtrl 343]
+type = SinX
+time = 5530
+value = 9,140
+
+[BGCtrl 343]
+type = velset
+time = 5530
+y = -1
+
+[BGCtrl 343]
+type = posset
+time = 5530
+y = 0
+
+[Begin Action 20]
+20,0, 0,0, 1,, AS64D256
+20,0, 0,0, 7,, AS128D256
+20,0, 0,0, 8,, AS224D256
+20,0, 0,0, 9,, AS248D256
+20,0, 0,0, 400,, A
+20,0, 0,0, 9,, AS224D256
+20,0, 0,0, 9,, AS192D256
+20,0, 0,0, 8,, AS160D256
+20,0, 0,0, 7,, AS128D256
+20,0, 0,0, 6,, AS104D256
+20,0, 0,0, 5,, AS88D256
+20,0, 0,0, 1,, AS80D256
+20,0, 0,0, 1,, AS72D256
+20,0, 0,0, 1,, AS64D256
+20,0, 0,0, 1,, AS56D256
+20,0, 0,0, 1,, AS48D256
+20,0, 0,0, 1,, AS40D256
+20,0, 0,0, 1,, AS32D256
+20,0, 0,0, 1,, AS24D256
+20,0, 0,0, 1,, AS16D256
+20,15, 0,0, 1,, AS64D256
+20,15, 0,0, 3,, AS128D256
+20,15, 0,0, 3,, AS224D256
+20,15, 0,0, 3,, AS248D256
+20,15, 0,0, 50,, A
+20,15, 0,0, 3,, AS224D256
+20,15, 0,0, 2,, AS192D256
+20,15, 0,0, 2,, AS160D256
+20,15, 0,0, 1,, AS128D256
+20,15, 0,0, 1,, AS104D256
+20,15, 0,0, 1,, AS88D256
+20,15, 0,0, 1,, AS80D256
+20,15, 0,0, 1,, AS72D256
+20,15, 0,0, 1,, AS64D256
+20,15, 0,0, 1,, AS56D256
+20,15, 0,0, 1,, AS48D256
+20,15, 0,0, 1,, AS40D256
+20,15, 0,0, 1,, AS32D256
+20,15, 0,0, 1,, AS24D256
+20,15, 0,0, 1,, AS16D256
+
+[Begin Action 1]
+1,0, 0,0, 1
+1,1, 0,0, 1
+1,2, 0,0, 1
+1,3, 0,0, 1
+1,4, 0,0, 1
+1,5, 0,0, 1
+1,6, 0,0, 1
+1,7, 0,0, 1
+1,8, 0,0, 1
+1,9, 0,0, 1
+1,10, 0,0, 1
+1,11, 0,0, 1
+1,12, 0,0, 1
+1,13, 0,0, 1
+1,14, 0,0, 1
+1,15, 0,0, 1
+1,16, 0,0, 1
+1,17, 0,0, 1
+1,18, 0,0, 1
+1,19, 0,0, 1
+1,20, 0,0, 1
+1,21, 0,0, 1
+1,22, 0,0, 1
+1,23, 0,0, 1
+1,24, 0,0, 1
+1,25, 0,0, 1
+1,26, 0,0, 1
+1,27, 0,0, 1
+
+[Begin Action 2]
+2,0, 0,0, 10
+2,1, 0,0, 10
+2,2, 0,0, 10
+
+[Begin Action 3]
+3,0, 0,0, 7
+3,1, 0,0, 7
+3,2, 0,0, 7
+3,3, 0,0, 7
+
+[Begin Action 4]
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,3, 0,0, 9
+4,6, 0,0, 9
+4,4, 0,0, 9
+4,5, 0,0, 100
+4,4, 0,0, 9
+4,6, 0,0, 9
+4,3, 0,0, 9
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,3, 0,0, 9
+4,6, 0,0, 9
+4,4, 0,0, 9
+4,5, 0,0, 500
+4,4, 0,0, 9
+4,6, 0,0, 9
+4,3, 0,0, 9
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+4,0, 0,0, 22
+4,1, 0,0, 22
+4,2, 0,0, 22
+4,1, 0,0, 22
+
+[Begin Action 5]
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 30
+5,11, 0,0, 30
+5,12, 0,0, 300
+5,11, 0,0, 10
+5,10, 0,0, 20
+5,1, 0,0, 8
+5,9, 0,0, 8
+5,4, 0,0, 8
+5,5, 0,0, 8
+5,6, 0,0, 7
+5,0, 0,0, 8
+5,1, 0,0, 8
+5,9, 0,0, 8
+5,4, 0,0, 8
+5,5, 0,0, 8
+5,6, 0,0, 7
+5,0, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 200
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 85
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,8, 0,0, 8
+
+[Begin Action 55]
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 85
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,13, 0,0, 8
+5,14, 0,0, 8
+5,8, 0,0, 8
+5,7, 0,0, 500
+5,8, 0,0, 491
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 8
+5,3, 0,0, 8
+5,10, 0,0, 30
+5,11, 0,0, 30
+5,12, 0,0, 300
+5,11, 0,0, 10
+5,10, 0,0, 20
+5,1, 0,0, 8
+5,9, 0,0, 8
+5,4, 0,0, 8
+5,5, 0,0, 8
+5,6, 0,0, 7
+5,0, 0,0, 8
+5,1, 0,0, 8
+5,9, 0,0, 8
+5,4, 0,0, 8
+5,5, 0,0, 8
+5,6, 0,0, 7
+5,0, 0,0, 8
+5,1, 0,0, 8
+5,2, 0,0, 200

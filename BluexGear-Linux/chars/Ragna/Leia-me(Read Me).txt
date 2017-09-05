@@ -1,0 +1,56 @@
+Ragna The Bloodedge Beta 2
+Compativel com Win Mugen e Mugen 1.0(Compatible with Win Mugen And Mugen 1.0)
+-------------------------------------------------------------------------------
+Controles(Controls):
+-------------------------------------------------------------------------------
+a = drive attack
+b = slash
+c = rapid cancel
+x = Punch
+y = kick
+z = Agarrões(Throw)
+-------------------------------------------------------------------------------
+especiais(specials)
+-------------------------------------------------------------------------------
+Hell's Fang = Down,Downback,Back,"X"
+
+Hell's Fang Part 2 = Down,Downback,Back, "A"
+
+"It's not Over Yet" = Down,Down, "B"
+
+Death Spike = Down,Downback,Back, "A"
+
+Gauntlet Hades = Down,Downback,Back, "Y"
+
+Gauntlet Hades Part 2 = Down,Downback,Back, "A"
+
+Infernal Divider = Forward,Down,Downforward, "A" ou(or)"B"
+
+Infernal Divider Part 2 = Down,Downforward,Forward, "B"
+
+Ifernal Divider Punch = Down,Downforward,Forward, "B" depois do I.D. Part 2(after I.D. Part 2)
+
+Infernal Divider Axe Kick = Down,Downback,Back, "B"
+-------------------------------------------------------------------------------
+Distortion Drives
+-------------------------------------------------------------------------------
+Carnage Scisors = Forward,Downforward,Down,Downback,Back,Forward, "A" 
+
+Blood Kain = Down,Downback,Back,Down,Downback,Back, "A"
+
+Devoured By Darkness = Down,Downback,Back,Down,Downback,Back "B"
+-------------------------------------------------------------------------------
+Astral Drive
+-------------------------------------------------------------------------------
+Black Onslaught = Down,Downforward,Forward,Down,Downforward,Forward, "B"
+
+OBS:Só pode ser executado se sua vida for menor que 50%,e com a barra de especial no máximo.(Only can be done if your life is below 50%,and power gauge is on max)
+-------------------------------------------------------------------------------
+o que falta(what's missing)
+-------------------------------------------------------------------------------
+Esse Ragna ja pode ser considerado uma versão completa,a unica coisa que esta faltando nele é a variavel pro "Blood Kain",se alguem puder por favor me ajudar com essa variavel,ficarei agradecido!(This Ragna can be considered done,the only thing missing is a var to "Blood Kain",if someone can please help me with this var i'll be grateful!)
+-------------------------------------------------------------------------------
+Agradecimentos(thanks to)
+-------------------------------------------------------------------------------
+Arc System,pelo ótimo game!(Arc System,for the great game!)
+A todos que me ajudaram com os comentáios!(for all who help with feedbacks!)

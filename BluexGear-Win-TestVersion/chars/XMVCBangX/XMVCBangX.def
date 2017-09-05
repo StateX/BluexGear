@@ -1,0 +1,19 @@
+[Info]
+name="XMVCBangX"
+displayname="Bang Shishigami"
+versiondate=1/4/10
+mugenversion=06,14,2003
+author="kal"
+pal.defaults=1
+[Files]
+sprite=XMVCBangX.sff
+sound=XMVCBangX.snd
+anim=XMVCBangX.air
+cmd=XMVCBangX.cmd
+cns=XMVCBangX.cns
+st=XMVCBangX.cns
+stcommon=common1.cns
+pal1=XMVCBangX.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=

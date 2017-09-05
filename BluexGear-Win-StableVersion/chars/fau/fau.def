@@ -1,0 +1,32 @@
+[Info]
+name = "faust"
+displayname = "FAUST"
+versiondate = 12,29,2004
+mugenversion = 04,14,2002
+author = "muteki" 
+pal.defaults = 7,11,1,4
+
+[Files]
+cmd     = faust.cmd
+cns     = faust_const.txt
+st      = faust.cns
+st1     = faust_ex.cns
+st2     = YAMABA.cns
+stcommon = common1.cns
+sprite  = faust.sff
+anim    = faust.air
+sound   = faust.snd
+pal1    = faust01.act
+pal2    = faust02.act
+pal3    = faust03.act
+pal4    = faust04.act
+pal5    = faust05.act
+pal6    = faust06.act
+pal7    = faust07.act
+pal8    = faust08.act
+pal9    = faust09.act
+pal10   = faust10.act
+pal11   = faust11.act
+pal12   = faust12.act
+
+[Arcade]

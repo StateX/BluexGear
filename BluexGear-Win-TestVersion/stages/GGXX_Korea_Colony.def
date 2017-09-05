@@ -1,0 +1,917 @@
+[Info];GUILTY GEAR XX #R
+name = "Korea Colony GGXX"
+
+;------------------------------------------------------------------------------
+[Camera]
+startx = 0
+starty = 0
+boundleft = -223
+boundright = 223
+boundhigh = -260
+boundlow = 0
+verticalfollow = 0.88
+floortension   = 80
+tension	       = 60
+
+;------------------------------------------------------------------------------
+[PlayerInfo]
+;--- Player 1 ---
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+
+;--- Player 2 ---
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+;--- Common ---
+leftbound = -1000
+rightbound = 1000
+topbound = 0
+botbound = 0
+
+;------------------------------------------------------------------------------
+[Scaling]
+topz = 0 
+botz = 50
+topscale = 1
+botscale = 1.2
+
+;------------------------------------------------------------------------------
+[Bound]
+screenleft = 10
+screenright = 10
+
+;------------------------------------------------------------------------------
+[StageInfo]
+zoffset = 216
+autoturn = 1
+resetBG = 0
+Hires = 1
+
+;------------------------------------------------------------------------------
+[Shadow]
+color = 100,100,100
+yscale = 0.25
+;reflect = 1
+
+;------------------------------------------------------------------------------
+[Music]
+bgmusic = sound/Child_of_the_Wild.mp3
+bgvolume = 255
+
+;------------------------------------------------------------------------------
+[BGdef]
+spr = stages/GGXX_Korea_Colony.sff
+debugbg = 0
+
+;------------------------------------------------------------------------------
+
+[BG 0];îwåi
+type = normal
+spriteno = 0,16
+layerno = 0
+start = 0,-30
+delta = 0.1,0.1
+trans = None
+mask  = 1
+
+[BG 0];îwåi
+type = normal
+spriteno = 0,15
+layerno = 0
+start = 0,270
+delta = 0.96,0.58
+trans = None
+mask  = 1
+
+[BG 0];îwåi
+type = normal
+spriteno = 0,14
+layerno = 0
+start = 0,0
+delta = 1.14,1.14
+trans = None
+mask  = 1
+
+[BG 0];îwåi
+type = normal
+spriteno = 0,13
+layerno = 0
+start = 0,-30
+delta = 1.79,1.45
+trans = None
+mask  = 1
+
+
+
+[BG 0];ãõ
+type = normal
+spriteno = 11,0
+layerno = 0
+start = 700,-30
+delta = 1.14,1.14
+trans = None
+mask  = 1
+ID = 20
+
+[BGCtrldef 20]
+CtrlID=20
+looptime=900
+
+[BGCtrl 1]
+type = Posset
+time = 0
+x=0
+y=0
+
+
+[BGCtrl 1]
+
+type = VelSet
+time = 0
+x = -3
+
+[BGCtrl 1]
+type = sinY
+value = 12,80
+
+
+[BG 0];ìyë‰
+type = normal
+spriteno = 0,0
+layerno = 0
+start = 0,490
+delta = 2,2
+trans = None
+mask  = 1
+[BG 0];ìyë‰
+type = normal
+spriteno = 0,1
+layerno = 0
+start = 0,490
+delta = 2,2
+trans = None
+mask  = 1
+
+[BG 0];âe
+type = normal
+spriteno = 8,27
+layerno = 0
+start = 0,490
+delta = 2,2
+trans = add1
+mask  = 1
+
+[BG 1];Ç®Ç…Ç·ÇÃÇ±
+type = anim
+layerno = 0
+actionno = 8
+start = 0,490
+delta = 2,2
+mask  = 0
+[Begin action 8]
+8,1, 0,0, 320,,
+8,4, 0,0, 120,,
+8,2, 0,0, 12,,
+8,3, 0,0, 12,,
+8,2, 0,0, 12,,
+8,3, 0,0, 12,,
+8,2, 0,0, 12,,
+8,3, 0,0, 12,,
+8,5, 0,0, 12,,
+8,6, 0,0, 12,,
+8,7, 0,0, 320,,
+8,6, 0,0, 12,,
+8,5, 0,0, 12,,
+8,4, 0,0, 190,,
+
+
+
+
+
+[BG 1];å¢
+type = anim
+layerno = 0
+actionno = 9
+start = 0,490
+delta = 2,2
+mask  = 0
+[Begin action 9]
+-1,0, 0,0, 260,,
+9,0, 0,0, 6,,
+9,1, 0,0, 6,,
+9,2, 0,0, 6,,
+9,3, 0,0, 148,,
+9,2, 0,0, 6,,
+9,1, 0,0, 6,,
+9,0, 0,0, 6,,
+-1,0, 0,0, 280,,
+9,0, 0,0, 6,,
+9,1, 0,0, 6,,
+9,2, 0,0, 6,,
+9,4, 0,0, 6,,
+9,5, 0,0, 6,,
+9,6, 0,0, 6,,
+9,5, 0,0, 6,,
+9,6, 0,0, 6,,
+9,5, 0,0, 6,,
+9,6, 0,0, 6,,
+9,5, 0,0, 6,,
+9,6, 0,0, 6,,
+9,5, 0,0, 6,,
+9,6, 0,0, 6,,
+9,5, 0,0, 6,,
+9,6, 0,0, 6,,
+9,5, 0,0, 6,,
+9,6, 0,0, 6,,
+9,7, 0,0, 6,,
+9,8, 0,0, 6,,
+9,3, 0,0, 6,,
+9,1, 0,0, 6,,
+9,0, 0,0, 6,
+-1,0, 0,0, 460,,
+9,12, 0,0, 6,,
+9,11, 0,0, 6,,
+9,9, 0,0, 5,,
+9,10, 0,0, 20,,
+9,9, 0,0, 5,,
+9,10, 0,0, 20,,
+9,9, 0,0, 5,,
+9,10, 0,0, 20,,
+9,9, 0,0, 6,,
+9,10, 0,0, 17,,
+9,9, 0,0, 7,,
+9,10, 0,0, 16,,
+9,9, 0,0, 5,,
+9,10, 0,0, 26,,
+9,9, 0,0, 7,,
+9,10, 0,0, 21,,
+9,11, 0,0, 6,,
+9,12, 0,0, 6,,
+
+[BG 1];é≠
+type = anim
+layerno = 0
+actionno = 7
+start = 0,490
+delta = 2,2
+mask  = 0
+[Begin action 7]
+7,0, 0,0, 120,,
+7,1, 0,0, 8,,
+7,2, 0,0, 46,,
+7,1, 0,0, 7,,
+7,0, 0,0, 120,,
+7,1, 0,0, 7,,
+7,2, 0,0, 46,,
+7,1, 0,0, 7,,
+7,0, 0,0, 110,
+7,3, 0,0, 11,,
+7,4, 0,0, 11,,
+7,5, 0,0, 12,,
+7,6, 0,0, 616,,
+7,5, 0,0, 18,,
+7,4, 0,0, 18,,
+7,3, 0,0, 17,,,
+7,1, 0,0, 17,,
+7,2, 0,0, 46,,
+7,1, 0,0, 7,,
+7,0, 0,0, 120,,
+7,1, 0,0, 7,,
+7,2, 0,0, 46,,
+7,1, 0,0, 7,,
+7,0, 0,0, 120,,
+7,1, 0,0, 7,,
+7,2, 0,0, 46,,
+7,1, 0,0, 7,,
+7,0, 0,0, 120,,
+7,1, 0,0, 7,,
+7,2, 0,0, 46,,
+7,1, 0,0, 7,,
+7,0, 0,0, 120,,
+7,1, 0,0, 7,,
+7,2, 0,0, 46,,
+7,1, 0,0, 7,,
+7,0, 0,0, 120,,
+7,1, 0,0, 7,,
+7,2, 0,0, 46,,
+7,1, 0,0, 7,,
+7,0, 0,0, 120,,
+
+[BG 0];âe
+type = normal
+spriteno = 4,20
+layerno = 0
+start = 0,490
+delta = 2,2
+trans = add1
+mask  = 1
+
+[BG 1];êÖ
+type = anim
+layerno = 0
+actionno = 5
+start = 0,490
+delta = 2,2
+mask  = 0
+[Begin action 5]
+-1,0, 0,0, 130,,
+5,0, 0,0, 130,,
+5,1, 0,0, 180,,
+5,2, 0,0, 6,,
+5,1, 0,0, 6,,
+5,0, 0,0, 6,,
+-1,1, 0,0, 6,,
+-1,0, 0,0, 6,,
+-1,0, 0,0, 6,,
+-1,0, 0,0, 6,,
+-1,0, 0,0, 6,,
+
+[BG 1];êÖ
+type = anim
+layerno = 0
+actionno = 6
+start = 0,490
+delta = 2,2
+mask  = 0
+[Begin action 6]
+5,9, 0,0, 130,,
+5,9, 0,0, 130,,
+5,9, 0,0, 180,,
+5,9, 0,0, 6,,
+5,3, 0,0, 6,,
+5,4, 0,0, 6,,
+5,5, 0,0, 6,,
+5,6, 0,0, 6,,
+5,7, 0,0, 6,,
+5,8, 0,0, 6,,
+5,9, 0,0, 6,,
+
+[BG 1];ãT
+type = anim
+layerno = 0
+actionno = 4
+start = 0,490
+delta = 2,2
+mask  = 0
+[Begin action 4]
+4,0, 0,0, 290,,
+4,1, 0,0, 4,,
+4,2, 0,0, 4,,
+4,3, 0,0, 4,,
+4,4, 0,0, 4,,
+4,5, 0,0, 190,,
+4,6, 0,0, 6,,
+4,7, 0,0, 6,,
+4,8, 0,0, 260,,
+4,9, 0,0, 6,,
+4,10, 0,0, 6,,
+4,11, 0,0, 260,,
+4,10, 0,0, 6,,
+4,9, 0,0, 6,,
+4,8, 0,0, 160,,
+4,7, 0,0, 6,,
+4,6, 0,0, 6,,
+4,5, 0,0, 120,,
+4,6, 0,0, 6,,
+4,7, 0,0, 6,,
+4,8, 0,0, 260,,
+4,9, 0,0, 6,,
+4,10, 0,0, 6,,
+4,11, 0,0, 260,,
+4,10, 0,0, 6,,
+4,9, 0,0, 6,,
+4,8, 0,0, 6,,
+4,7, 0,0, 6,,
+4,6, 0,0, 6,,
+4,5, 0,0, 190,,
+4,4, 0,0, 4,,
+4,3, 0,0, 4,,
+4,2, 0,0, 4,,
+4,1, 0,0, 4,,
+
+[BG 1];âä
+type = anim
+layerno = 0
+actionno = 2
+start = 0,490
+delta = 2,2
+mask  = 0
+[Begin action 2]
+2,0, 0,0, 6,,
+2,1, 0,0, 6,,
+2,2, 0,0, 6,,
+2,3, 0,0, 6,,
+2,4, 0,0, 6,,
+2,5, 0,0, 6,,
+
+
+
+[BG 1];âä
+type = anim
+layerno = 0
+actionno = 3
+start = 0,490
+delta = 2,2
+mask  = 0
+[Begin action 3]
+3,4, 0,0, 6,,
+3,5, 0,0, 6,,
+3,0, 0,0, 6,,
+3,1, 0,0, 6,,
+3,2, 0,0, 6,,
+3,3, 0,0, 6,,
+
+
+[BG 1];ñæÇ©ÇË
+type = anim
+layerno = 0
+actionno = 1
+start = 0,490
+delta = 2,2
+mask  = 1
+[Begin action 1]
+1,0, 0,0, 10,,AS250D256
+1,0, 0,0, 10,,AS240D256
+1,0, 0,0, 10,,AS230D256
+1,0, 0,0, 10,,AS220D256
+1,0, 0,0, 10,,AS210D256
+1,0, 0,0, 10,,AS220D256
+1,0, 0,0, 10,,AS230D256
+1,0, 0,0, 10,,AS240D256
+
+
+
+[BG 1];ìíãC
+type = anim
+layerno = 1
+actionno = 10
+start = 0,490
+delta = 2,2
+mask  = 1
+ID = 10
+[Begin action 10]
+10,0, 0,0, 6,,AS50D256
+10,1, 0,0, 6,,AS50D256
+10,2, 0,0, 6,,AS50D256
+10,3, 0,0, 6,,AS50D256
+10,4, 0,0, 6,,AS50D256
+10,5, 0,0, 6,,AS50D256
+10,6, 0,0, 6,,AS50D256
+10,7, 0,0, 6,,AS50D256
+10,8, 0,0, 6,,AS50D256
+10,9, 0,0, 6,,AS50D256
+10,10, 0,0, 6,,AS50D256
+10,11, 0,0, 6,,AS50D256
+10,12, 0,0, 6,,AS50D256
+10,13, 0,0, 6,,AS50D256
+10,14, 0,0, 6,,AS50D256
+10,15, 0,0, 6,,AS50D256
+10,16, 0,0, 6,,AS50D256
+10,17, 0,0, 6,,AS50D256
+10,18, 0,0, 6,,AS50D256
+10,19, 0,0, 6,,AS50D256
+10,20, 0,0, 6,,AS50D256
+10,21, 0,0, 6,,AS50D256
+10,22, 0,0, 6,,AS50D256
+10,23, 0,0, 6,,AS50D256
+10,24, 0,0, 6,,AS50D256
+10,25, 0,0, 6,,AS50D256
+10,26, 0,0, 6,,AS50D256
+10,27, 0,0, 6,,AS50D256
+10,28, 0,0, 6,,AS50D256
+10,29, 0,0, 6,,AS50D256
+10,30, 0,0, 6,,AS50D256
+10,31, 0,0, 6,,AS50D256
+[Begin action 11]
+10,0, 0,0, 5,,AS36D256
+10,1, 0,0, 5,,AS36D256
+10,2, 0,0, 5,,AS36D256
+10,3, 0,0, 5,,AS36D256
+10,4, 0,0, 5,,AS36D256
+10,5, 0,0, 5,,AS36D256
+10,6, 0,0, 5,,AS36D256
+10,7, 0,0, 5,,AS36D256
+10,8, 0,0, 5,,AS36D256
+10,9, 0,0, 5,,AS36D256
+10,10, 0,0, 5,,AS36D256
+10,11, 0,0, 5,,AS36D256
+10,12, 0,0, 5,,AS36D256
+10,13, 0,0, 5,,AS36D256
+10,14, 0,0, 5,,AS36D256
+10,15, 0,0, 5,,AS36D256
+10,16, 0,0, 5,,AS36D256
+10,17, 0,0, 5,,AS36D256
+10,18, 0,0, 5,,AS36D256
+10,19, 0,0, 5,,AS36D256
+10,20, 0,0, 5,,AS36D256
+10,21, 0,0, 5,,AS36D256
+10,22, 0,0, 5,,AS36D256
+10,23, 0,0, 5,,AS36D256
+10,24, 0,0, 5,,AS36D256
+10,25, 0,0, 5,,AS36D256
+10,26, 0,0, 5,,AS36D256
+10,27, 0,0, 5,,AS36D256
+10,28, 0,0, 5,,AS36D256
+10,29, 0,0, 5,,AS36D256
+10,30, 0,0, 5,,AS36D256
+10,31, 0,0, 5,,AS36D256
+
+[BGCtrldef 10] 
+CtrlID = 10
+looptime = 960
+
+[BGCtrl 1]
+type = sinX
+value = 64,1920
+[BGCtrl 1]
+type = sinY
+value = 50,1920
+
+[BGCtrl 1]
+type = Posset
+time = 0
+x=0
+y=-30
+
+[BGCtrl 1]
+type = PosAdd
+time = 192
+x = 80
+y = -70
+
+[BGCtrl 1]
+type = PosAdd
+time = 384
+x = -120
+y = 40
+
+[BGCtrl 1]
+type = PosAdd
+time = 576
+x = 150
+y = 20
+
+
+[BGCtrl 1]
+type = PosAdd
+time = 758
+x = -140
+y = -40
+
+
+
+[BG 1];ìíãC2
+type = anim
+layerno = 1
+actionno = 11
+start = 0,490
+delta = 2,2
+mask  = 1
+ID = 12
+
+[BGCtrldef 12]
+CtrlID=12
+looptime=800
+
+[BGCtrl 1]
+type = sinX
+value = -62,1600
+[BGCtrl 1]
+type = sinY
+value = -50,1600
+
+[BGCtrl 1]
+type = Posset
+time = 0
+x=-440
+y=-86
+
+[BGCtrl 1]
+type = PosAdd
+time = 160
+x = 140
+y = 50
+
+[BGCtrl 1]
+type = PosAdd
+time = 320
+x = 180
+y = -60
+
+[BGCtrl 1]
+type = PosAdd
+time = 480
+x = 258
+y = 30
+
+
+[BGCtrl 1]
+type = PosAdd
+time = 640
+x = 240
+y = -50
+
+
+[BG 1];ìíãC3
+type = anim
+layerno = 1
+actionno = 10
+start = 0,490
+delta = 2,2
+mask  = 1
+ID = 13
+
+
+[BGCtrldef 13]
+CtrlID=13
+looptime = 960
+
+[BGCtrl 1]
+type = sinX
+value = 80,1920
+[BGCtrl 1]
+type = sinY
+value = 46,1920
+
+[BGCtrl 1]
+type = Posset
+time = 0
+x=-580
+y=-10
+
+[BGCtrl 1]
+type = PosAdd
+time = 192
+x = -50
+y = -57
+
+[BGCtrl 1]
+type = PosAdd
+time = 384
+x = 140
+y = 60
+
+[BGCtrl 1]
+type = PosAdd
+time = 576
+x = -98
+y = -60
+
+
+[BGCtrl 1]
+type = PosAdd
+time = 758
+x = 180
+y = 60
+
+
+[BG 1];ìíãC4
+type = anim
+layerno = 1
+actionno = 10
+start = 0,490
+delta = 2,2
+mask  = 1
+ID = 14
+
+
+[BGCtrldef 14]
+CtrlID=14
+looptime = 1010
+
+[BGCtrl 1]
+type = Enable
+value = 0
+time = 0
+
+[BGCtrl 1]
+type = Enable
+value = 1
+time = 50
+
+[BGCtrl 1]
+type = sinX
+value = -80,2020
+[BGCtrl 1]
+type = sinY
+value = -55,2020
+
+[BGCtrl 1]
+type = Posset
+time = 0
+x=-280
+y=-30
+
+[BGCtrl 1]
+type = PosAdd
+time = 242
+x = -150
+y = -30
+
+[BGCtrl 1]
+type = PosAdd
+time = 434
+x = 170
+y = 30
+
+[BGCtrl 1]
+type = PosAdd
+time = 626
+x = -88
+y = -40
+
+
+[BGCtrl 1]
+type = PosAdd
+time = 808
+x = 150
+y = 50
+
+
+
+
+[BG 1];ìíãC5
+type = anim
+layerno = 1
+actionno = 11
+start = 0,490
+delta = 2,2
+mask  = 1
+ID = 15
+
+[BGCtrldef 15]
+CtrlID=15
+looptime=800
+
+[BGCtrl 1]
+type = sinX
+value = 70,1600
+[BGCtrl 1]
+type = sinY
+value = 40,1600
+
+[BGCtrl 1]
+type = Posset
+time = 0
+x=190
+y=-50
+
+[BGCtrl 1]
+type = PosAdd
+time = 160
+x = 40
+y = 46
+
+[BGCtrl 1]
+type = PosAdd
+time = 320
+x = -120
+y = -60
+
+[BGCtrl 1]
+type = PosAdd
+time = 480
+x = 158
+y = 50
+
+
+[BGCtrl 1]
+type = PosAdd
+time = 640
+x = -90
+y = -60
+
+
+
+[BG 1];ìíãC6
+type = anim
+layerno = 1
+actionno = 10
+start = 0,490
+delta = 2,2
+mask  = 1
+ID = 16
+
+
+[BGCtrldef 16]
+CtrlID=16
+looptime = 1010
+
+[BGCtrl 1]
+type = Enable
+value = 0
+time = 0
+
+[BGCtrl 1]
+type = Enable
+value = 1
+time = 50
+
+[BGCtrl 1]
+type = sinX
+value = 100,2020
+[BGCtrl 1]
+type = sinY
+value = 50,2020
+
+[BGCtrl 1]
+type = Posset
+time = 0
+x=280
+y=-30
+
+[BGCtrl 1]
+type = PosAdd
+time = 242
+x = -78
+y = -80
+
+[BGCtrl 1]
+type = PosAdd
+time = 434
+x = 110
+y = 60
+
+[BGCtrl 1]
+type = PosAdd
+time = 626
+x = -78
+y = -40
+
+
+[BGCtrl 1]
+type = PosAdd
+time = 808
+x = 140
+y = 50
+
+
+
+
+
+[BG 1];ìíãC7
+type = anim
+layerno = 1
+actionno = 10
+start = 0,490
+delta = 2,2
+mask  = 1
+ID = 17
+
+
+[BGCtrldef 17]
+CtrlID=17
+looptime = 990
+
+[BGCtrl 1]
+type = Enable
+value = 0
+time = 0
+
+[BGCtrl 1]
+type = Enable
+value = 1
+time = 30
+
+[BGCtrl 1]
+type = sinX
+value = 90,1980
+[BGCtrl 1]
+type = sinX
+value = 40,1980
+
+[BGCtrl 1]
+type = Posset
+time = 0
+x=520
+y=-30
+
+[BGCtrl 1]
+type = PosAdd
+time = 222
+x = -78
+y = -80
+
+[BGCtrl 1]
+type = PosAdd
+time = 414
+x = 108
+y = 60
+
+[BGCtrl 1]
+type = PosAdd
+time = 606
+x = -88
+y = -40
+
+
+[BGCtrl 1]
+type = PosAdd
+time = 788
+x = 130
+y = 60

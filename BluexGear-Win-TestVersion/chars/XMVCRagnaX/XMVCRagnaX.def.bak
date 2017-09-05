@@ -1,0 +1,20 @@
+[Info]
+name="XMVCRagnaX"
+displayname="Ragna Bloodedge"
+versiondate=2/7/12
+mugenversion=06,14,2003
+author="kal"
+pal.defaults=1
+[Files]
+sprite=XMVCRagnaX.sff
+sound=XMVCRagnaX.snd
+anim=XMVCRagnaX.air
+cmd=XMVCRagnaX.cmd
+cns=XMVCRagnaX.cns
+st=XMVCRagnaX.cns
+stcommon=common1.cns
+pal1=XMVCRagnaX.act
+st1=Tagteam.st
+[Arcade]
+intro.storyboard=
+ending.storyboard=

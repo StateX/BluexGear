@@ -1,0 +1,32 @@
+[Info]
+name = "SLAYER"
+displayname = "SLAYER"
+versiondate = 06,27,2007
+mugenversion = 04,14,2002
+author = "muteki"
+pal.defaults = 1
+
+[Files]
+cmd     = slayer.cmd   ;Command set
+cns     = slayer_const.txt   ;Constants
+st      = slayer.cns   ;States
+st2     = AI.txt
+stcommon = common1.cns ;Common states
+sprite  = slayer.sff   ;Sprite
+anim    = slayer.air   ;Animation
+sound   = slayer.snd   ;Sound
+pal1    = slayer01.act
+pal2    = slayer02.act
+pal3    = slayer03.act
+pal4    = slayer04.act
+pal5    = slayer05.act
+pal6    = slayer06.act
+pal7    = slayer07.act
+pal8    = slayer08.act
+pal9    = slayer09.act
+pal10    = slayer10.act
+pal11    = slayer11.act
+pal12    = slayer12.act
+
+[Arcade]
+

@@ -1,0 +1,32 @@
+[Info]
+name = "potemkin"
+displayname = "Potemkin"
+versiondate = 06,07,2005
+mugenversion = 04,14,2002
+author = "muteki" 
+pal.defaults = 11,9,1,12
+
+[Files]
+cmd     = potemkin.cmd
+cns     = potemkin_const.txt
+st      = potemkin.cns
+st2      = potemkin-2.cns
+st3      = AI.txt
+stcommon = common1.cns
+sprite  = potemkin.sff
+anim    = potemkin.air
+sound   = potemkin.snd
+pal1    = potemkin01.act
+pal2    = potemkin02.act
+pal3    = potemkin03.act
+pal4    = potemkin04.act
+pal5    = potemkin05.act
+pal6    = potemkin06.act
+pal7    = potemkin07.act
+pal8    = potemkin08.act
+pal9    = potemkin09.act
+pal10   = potemkin10.act
+pal11   = potemkin11.act
+pal12   = potemkin12.act
+
+[Arcade]

@@ -1,0 +1,417 @@
+;--------------------------------------------------------
+[Info]
+name = " (Guilty Gear XXR) Millia"
+;Author       = "choiyer"
+
+;--------------------------------------------------------
+[Camera]
+startx = 0
+starty = 0
+boundleft = -190
+boundright = 240
+boundhigh = -150
+boundlow = 0
+
+verticalfollow = .65
+floortension = 110
+tension = 60
+
+
+;--------------------------------------------------------
+[PlayerInfo]
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000
+rightbound =  1000
+topbound  =  0
+botbound  =  0
+
+[Scaling]
+topz     = 0
+botz     = 50
+topscale = 1
+botscale = 1.2
+
+;--------------------------------------------------------
+[Bound]
+screenleft = 15
+screenright = 15
+
+;--------------------------------------------------------
+[StageInfo]
+zoffset = 225
+autoturn = 1
+resetBG = 1
+HIres = 1
+
+;--------------------------------------------------------
+[Shadow]
+color = 0,0,0
+yscale = .4
+intensity = 128
+reflect = 0
+
+;--------------------------------------------------------
+[Reflection]
+intensity = 0
+
+;--------------------------------------------------------
+[Music]
+bgmusic = 
+bgvolume = 
+
+
+[BGdef]
+spr = stages/GGXXR_millia_D4.sff
+debugbg = 0
+
+[BG 00]
+type  = normal
+spriteno = 6,0
+start = 0,0
+delta = 0.4,1.1
+mask=0
+
+[BG anim]
+type = anim
+actionno = 1
+ID = 1
+start = 0,0
+delta = 0.4, 1.1
+trans = None 
+mask = 0
+
+[Begin action 1]
+6,1,0,0,8
+6,2,0,0,8
+6,3,0,0,8
+
+[BG 10]
+type  = normal
+spriteno = 4,0
+start = 0,0
+delta = 1.3,1.3
+mask=1
+
+[BG 11]
+type  = normal
+spriteno = 4,1
+start = 0,0
+delta = 1.3,1.3
+mask=1
+
+[BG anim]
+type = anim
+actionno = 12
+ID = 12
+start = 0,0
+delta = 2, 2
+trans = None 
+mask = 1
+
+[Begin action 12]
+3,0,0,0,16
+3,1,0,0,16
+3,2,0,0,16
+3,3,0,0,16
+
+[BG 10anim]
+type = anim
+actionno = 10
+ID = 10
+start = 0,0
+delta = 2, 2
+trans = None 
+mask = 1
+
+[Begin action 10]
+1,0,0,0,8
+1,1,0,0,8
+
+[BG 11anim]
+type = anim
+actionno = 11
+ID = 11
+start = 0,0
+delta = 2, 2
+trans = None 
+mask = 1
+
+[Begin action 11]
+2,0,0,0,8
+2,1,0,0,8
+
+[BG 23anim]
+type = anim
+actionno = 14
+ID = 14
+start = 0,0
+delta = 2, 2
+trans = None 
+mask = 1
+
+[Begin action 14]
+0,6,0,0,8
+0,7,0,0,8
+0,8,0,0,8
+0,9,0,0,8
+0,10,0,0,8
+0,11,0,0,8
+0,10,0,0,8
+0,9,0,0,8
+0,8,0,0,8
+0,7,0,0,8
+
+[BG 20]
+type  = normal
+spriteno = 0,0
+start = 0,0
+delta = 2,2
+mask = 1
+
+[BG 21]
+type  = normal
+spriteno = 0,1
+start = 0,0
+delta = 2,2
+mask = 1
+
+[BG 22]
+type  = normal
+spriteno = 0,2
+start = 0,0
+delta = 2,2
+mask = 1
+
+[BG 23]
+type  = normal
+spriteno = 0,3
+start = 0,0
+delta = 2,2
+mask = 1
+
+[BG 15anim]
+type = anim
+actionno = 15
+ID = 15
+start = -55,25
+delta = 2, 2
+trans = None 
+mask = 1
+
+[BG 16anim]
+type = anim
+actionno = 16
+ID = 16
+start = 60,-8
+delta = 2, 2
+trans = None 
+mask = 1
+
+[BG 17anim]
+type = anim
+actionno = 17
+ID = 17
+start = 210,-28
+delta = 2, 2
+trans = None 
+mask = 1
+
+[BG light1]
+type = anim
+actionno = 18
+ID = 18
+start = -2,6
+delta = 2, 2
+trans = None 
+mask = 0
+
+[BG light2]
+type = anim
+actionno = 18
+ID = 18
+start = 136,8
+delta = 2, 2
+trans = None 
+mask = 0
+
+[BG light3]
+type = anim
+actionno = 19
+ID = 23
+start = 252,50
+delta = 2, 2
+trans = None 
+mask = 0
+
+[BG light4]
+type = anim
+actionno = 19
+ID = 23
+start = 306,50
+delta = 2, 2
+trans = None 
+mask = 0
+
+[BG fairy1]
+type = anim
+actionno = 20
+ID = 20
+start = -240,180
+delta = 2, 2
+sin.y = 5, 60
+trans = None 
+mask = 0
+
+[BG fairy2]
+type = anim
+actionno = 20
+ID = 21
+start = -180,165
+delta = 2, 2
+sin.y = 5, 70
+trans = None 
+mask = 0
+
+[BG fairy3]
+type = anim
+actionno = 20
+ID = 20
+start = -215,195
+delta = 2, 2
+sin.y = 6, 65
+trans = None 
+mask = 0
+
+[BG fairy4]
+type = anim
+actionno = 20
+ID = 21
+start = 600,280
+delta = 2, 2
+sin.y = 6, 65
+trans = None 
+mask = 0
+
+[BG fairy5]
+type = anim
+actionno = 20
+ID = 20
+start = 320,190
+delta = 2, 2
+sin.y = 5, 70
+trans = None 
+mask = 0
+
+[BG fairy6]
+type = anim
+actionno = 20
+ID = 20
+start = 120,45
+delta = 2, 2
+sin.y = 5, 70
+trans = None 
+mask = 0
+
+[BGCtrlDef fairy1]
+looptime = 240
+ctrlID = 20
+
+[BGCtrl vel1]
+type = velset
+time = 0
+ID = 20
+x = -0.6
+
+[BGCtrl vel1]
+type = velset
+time = 120
+ID = 20
+x = 0.6
+
+[BGCtrl Anim]
+type = Anim
+time = 0
+ctrlID = 20
+value = 20
+
+[BGCtrl Anim_turn]
+type = Anim
+time = 120
+ctrlID = 20
+value = 21
+
+[BGCtrlDef fairy2]
+looptime = 260
+ctrlID = 21
+
+[BGCtrl vel1]
+type = velset
+time = 0
+ID = 21
+x = -0.5
+
+[BGCtrl vel1]
+type = velset
+time = 130
+ID = 21
+x = 0.5
+
+[BGCtrl Anim]
+type = Anim
+time = 0
+ctrlID = 21
+value = 20
+
+[BGCtrl Anim_turn]
+type = Anim
+time = 130
+ctrlID = 21
+value = 21
+
+[Begin action 15]
+8,0,0,0,9
+8,1,0,0,9
+8,2,0,0,9
+8,3,0,0,9
+8,4,0,0,9
+8,5,0,0,9
+
+[Begin action 16]
+8,3,0,0,9
+8,4,0,0,9
+8,5,0,0,9
+8,0,0,0,9
+8,1,0,0,9
+8,2,0,0,9
+
+[Begin action 17]
+8,5,0,0,9
+8,0,0,0,9
+8,1,0,0,9
+8,2,0,0,9
+8,3,0,0,9
+8,4,0,0,9
+
+[Begin Action 18]
+9,0, 0,0, 3 ,,A
+9,1, 0,0, 3 ,,A
+
+[Begin Action 19]
+9,2, 0,0, 3 ,,A
+9,3, 0,0, 3 ,,A
+
+[Begin Action 20]
+10,0, 0,0, 6 ,,A
+10,1, 0,0, 6 ,,A
+
+[Begin Action 21]
+10,0, 0,0, 6 ,H,A
+10,1, 0,0, 6 ,H,A

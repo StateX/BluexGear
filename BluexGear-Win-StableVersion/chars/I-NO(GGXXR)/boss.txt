@@ -1,0 +1,91 @@
+[Statedef 3480]
+anim = 9999
+ctrl = 0
+
+;==============================================================================
+[State -3];メガロマニア発動
+Type = ParentVarSet
+Trigger1 = roundstate < 2
+var(34) = 0
+
+;0 off
+;1 on
+;2 on + 発動条件緩和(ヒットストップ中や覚醒必殺技等を受けている状態でも発動)
+
+;------------------------------------------------------------------------------
+[State -3];タッグバトルでもメガロマニア発動(どうなっても知らんぞ)
+Type = ParentVarSet
+Trigger1 = roundstate < 2
+var(35) = 0
+
+;0 off
+;1 on
+
+;==============================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[State -2]
+type = parentvarset
+triggerall = root,var(34)
+triggerall = (root,numpartner = 0&&numenemy != 2)||root,var(35)
+triggerall = (root,var(30)=0&&ceil(100*root,life/root,const(data.life))<25)
+trigger1 = time = 0
+var(30) = 3
+
+[State -2]
+type = parentvarset
+triggerall = root,var(34)
+triggerall = (root,numpartner = 0&&numenemy != 2)||root,var(35)
+triggerall = (root,var(30)=0&&ceil(100*root,life/root,const(data.life))<50)
+trigger1 = time = 0
+var(30) = 2
+
+[State -2]
+type = parentvarset
+triggerall = root,var(34)
+triggerall = (root,numpartner = 0&&numenemy != 2)||root,var(35)
+triggerall = (root,var(30)=0&&ceil(100*root,life/root,const(data.life))<75)
+trigger1 = time = 0
+var(30) = 1
+
+[State -2]
+Type = DestroySelf
+Trigger1 = roundstate >= 2
+
+

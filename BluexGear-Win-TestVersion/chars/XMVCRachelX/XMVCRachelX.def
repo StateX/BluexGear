@@ -1,0 +1,19 @@
+[Info]
+name="XMVCRachelX"
+displayname="Rachel Alucard"
+versiondate=25/11/12
+mugenversion=06,14,2003
+author="kal"
+pal.defaults=1
+[Files]
+sprite=XMVCRachelX.sff
+sound=XMVCRachelX.snd
+anim=XMVCRachelX.air
+cmd=XMVCRachelX.cmd
+cns=XMVCRachelX.cns
+st=XMVCRachelX.cns
+stcommon=common1.cns
+pal1=XMVCRachelX.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=

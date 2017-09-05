@@ -1,0 +1,28 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Lambda"
+displayname = "Lambda"
+versiondate = 3/11/11
+mugenversion = 06,14,2003
+author = "kal edit by dartzp5"
+pal.defaults = 1,2,3
+
+[Files]
+sprite = Lambda.sff
+anim = Lambda.air
+sound = Lambda.snd
+cmd = Lambda.cmd
+cns = Lambda.cns
+stcommon = common1.cns
+st = Lambda.cns
+pal1 = Lambda_01.act
+pal2 = Lambda_02.act
+pal3 = Lambda_03.act
+
+[Arcade]
+;intro.storyboard = 
+ending.storyboard = 
