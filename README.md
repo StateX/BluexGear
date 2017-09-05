@@ -1,7 +1,7 @@
 # BluexGear
 A Guilty Gear vs Blazblue M.U.G.E.N
 
-![](https://i.imgur.com/KCWrUjb.gif)
+![Alt Text](https://i.imgur.com/KCWrUjb.gif)
 
 
 # Characteristics:
