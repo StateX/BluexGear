@@ -1,7 +1,7 @@
 # BluexGear
 A Guilty Gear vs Blazblue M.U.G.E.N
 
-![Alt Text](https://github.com/StateX/BluexGear/blob/master/ezgif-4-0730c51c7d.gif)
+![Alt Text](https://github.com/StateX/BluexGear/blob/master/ezgif-4-acd2aee329.gif)
 
 
 # Characteristics:
