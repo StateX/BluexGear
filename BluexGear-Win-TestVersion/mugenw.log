@@ -4,7 +4,7 @@
 M.U.G.E.N ver 2002.04.14 status log
 -----------------------------------
 Parsing command line...
-Command line: Z:\root\Escritorio\Fighting\Mugen\BluexGear-Win-TestVersion\BluexGear.exe
+Command line: Z:\root\Escritorio\Fighting\Mugen\GitHub\BluexGear\BluexGear-Win-TestVersion\BluexGear.exe
 Parse command line OK
 Initializing...
 Allocating game variables
@@ -57,21 +57,16 @@ Initializing character info...OK
 Initializing select screen...finding characters...OK
 Entering main loop.
 
-Using original loader on chars/ky_slash/ky_slash.def
+Using original loader on chars/XMVCRagnaX/XMVCRagnaX.def
 
-Using original loader on chars/Lambda/Lambda.def
+Using original loader on chars/pot/pot.def
+
+Using original loader on chars/XMVCHakX/XMVCHakX.def
 Unloading system background data...sprite data...OK
 Reloading system sprite data...Reloading system background data...OK
-Returned from main loop.
-Deinitializing...
-Clearing player cache...OK
-Freeing character info...OK
-Freeing select screen...OK
-Freeing fight data...OK
-Freeing system data...OK
-Freeing game variables...OK
-Deinitializing input...pad...keyboard...OK
-Removing callbacks...OK
-Deintializing timer...OK
-Deinitializing graphics...OK
-Deinitializing CDA...MP3...sound...OK
+
+Using original loader on chars/XMVCJinX/XMVCJinX.def
+
+Using original loader on chars/SLAYER2/SLAYER2.def
+Unloading system background data...sprite data...OK
+Reloading system sprite data...Reloading system background data...OK
