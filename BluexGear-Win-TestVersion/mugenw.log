@@ -57,9 +57,29 @@ Initializing character info...OK
 Initializing select screen...finding characters...OK
 Entering main loop.
 
-Using original loader on chars/XMVCRachelX/XMVCRachelX.def
+Using original loader on chars/XMVCRagnaX/XMVCRagnaX.def
 
-Using original loader on chars/SLAYER2/SLAYER2.def
+Using original loader on chars/XMVCHakX/XMVCHakX.def
+Unloading system background data...sprite data...OK
+Reloading system sprite data...Reloading system background data...OK
+Unloading system background data...sprite data...OK
+
+Using original loader on chars/baiken_SLASH/baiken_SLASH.def
+
+Using original loader on chars/I-NO(GGXXR)/I-NO(GGXXR).def
+Reloading system sprite data...Reloading system background data...OK
+
+Using original loader on chars/XMVCBangX/XMVCBangX.def
+
+Using original loader on chars/pot/pot.def
+Unloading system background data...sprite data...OK
+Reloading system sprite data...Reloading system background data...OK
+
+Using original loader on chars/XMVCHazamaX/XMVCHazamaX.def
+
+Using original loader on chars/I-NO(GGXXR)/I-NO(GGXXR).def
+Unloading system background data...sprite data...OK
+Reloading system sprite data...Reloading system background data...OK
 Unloading system background data...sprite data...OK
 Reloading system sprite data...Reloading system background data...OK
 Unloading system background data...sprite data...OK
