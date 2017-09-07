@@ -74,6 +74,14 @@ XMVCHakX
 XMVCBangX
 XMVCRachelX
 XMVCHazamaX
+empty;
+randomselect
+randomselect
+randomselect
+randomselect
+randomselect
+randomselect
+empty;
 sol
 ky_slash
 millia rage
@@ -82,17 +90,33 @@ baiken_SLASH
 fau
 SLAYER2
 I-NO(GGXXR)
-;kfm, stages/kfm.def
+
 
 ;-----------------------
 [ExtraStages]
  ;Put extra stages here. They will be available in VS and Watch modes.
  ;For example, you can insert "stages/mybg.def".
 
+stages/Blazblue_Adventus_Coccon.def
+stages/Blazblue_Altar.def
+stages/Blazblue_Bascule.def
+stages/Blazblue_Halloween.def
+stages/Blazblue_Heritage_Museum.def
+stages/Blazblue_Kagutsuchi_PM.def
+stages/Blazblue_Taokaka_World.def
+stages/Blazblue_The_Gate.def
+stages/Blazblue_Village_Posprandial.def
+stages/Colony_GGI.def
+stages/GGXX_Korea_Colony.def
 stages/GGXXR_millia_D4.def
+stages/Grove_GGX.def
+stages/Hells_Forest_GGI.def
+stages/Hells_Prison_GGI.def
+stages/New_York_GGX.def
+stages/Ninja_Training_GGI.def
+stages/Pirate_Fort_GGI.def
 
-
-;---------------------------------------------------------------------
+------------------------------------------------
 [Options]
  ;Here you set the maximum number of matches to fight before game ends
  ;in Arcade Mode. The first number is the number of matches against

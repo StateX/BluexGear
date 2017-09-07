@@ -14,7 +14,6 @@ cns=XMVCHakX.cns
 st=XMVCHakX.cns
 stcommon=common1.cns
 pal1=XMVCHakX.act
-st1=Tagteam.st
 [Arcade]
 intro.storyboard=
 ending.storyboard=

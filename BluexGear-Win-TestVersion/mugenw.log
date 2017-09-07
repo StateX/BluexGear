@@ -4,7 +4,7 @@
 M.U.G.E.N ver 2002.04.14 status log
 -----------------------------------
 Parsing command line...
-Command line: Z:\root\Escritorio\Fighting\Mugen\GitHub\BluexGear\BluexGear-Win-TestVersion\BluexGear.exe
+Command line: Z:\root\Escritorio\Fighting\Mugen\BluexGear-Win-TestVersion\BluexGear.exe
 Parse command line OK
 Initializing...
 Allocating game variables
@@ -19,6 +19,7 @@ Setting callbacks...OK
 Initializing game variables...OK
 Loading system fonts...OK
 Loading options...
+Initializing pads...failed
 Reinitializing input engine...OK
 Remapping keys...OK
 Reinitializing input engine...OK
@@ -53,20 +54,18 @@ Loading system...
 System loaded OK
 Initialize OK
 Set up graphics...timer...OK
+Playing storyboard Logo.def: scene
+Storyboard playback canceled 80:0 k23 p0
+Finished playing storyboard Logo.def: scene
 Initializing character info...OK
 Initializing select screen...finding characters...OK
 Entering main loop.
-
-Using original loader on chars/XMVCRagnaX/XMVCRagnaX.def
-
-Using original loader on chars/pot/pot.def
-
-Using original loader on chars/XMVCHakX/XMVCHakX.def
-Unloading system background data...sprite data...OK
-Reloading system sprite data...Reloading system background data...OK
+Playing storyboard intro.def: scene
+Storyboard playback canceled 80:0 k23 p0
+Finished playing storyboard intro.def: scene
 
 Using original loader on chars/XMVCJinX/XMVCJinX.def
 
-Using original loader on chars/SLAYER2/SLAYER2.def
+Using original loader on chars/pot/pot.def
 Unloading system background data...sprite data...OK
 Reloading system sprite data...Reloading system background data...OK

@@ -90,7 +90,7 @@ baiken_SLASH
 fau
 SLAYER2
 I-NO(GGXXR)
-;kfm, stages/kfm.def
+
 
 ;-----------------------
 [ExtraStages]
@@ -116,7 +116,7 @@ stages/New_York_GGX.def
 stages/Ninja_Training_GGI.def
 stages/Pirate_Fort_GGI.def
 
-;---------------------------------------------------------------------
+------------------------------------------------
 [Options]
  ;Here you set the maximum number of matches to fight before game ends
  ;in Arcade Mode. The first number is the number of matches against

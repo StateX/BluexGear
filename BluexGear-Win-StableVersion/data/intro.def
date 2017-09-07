@@ -1,0 +1,24 @@
+;----------------------------
+[Info]
+name =  "BattleCry Intro"              ;Name of motif
+author = "GrayFox"                             ;Motif author name
+
+;----------------------------
+[SceneDef]
+spr = intro.sff
+;-------------------------------------------------------------
+[Scene 0]
+fadein.time = 60
+fadeout.time = 60
+clearcolor = 0,0,0
+layerall.pos = 0,0 
+layer0.anim =  1
+end.time = 1000
+bgm = 102 Character Select.ogg
+bgm.loop = 1
+
+[Begin Action 1]
+0,0, 0,2, 20
+0,1, 0,2, 20
+
+

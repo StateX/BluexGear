@@ -14,7 +14,6 @@ cns=XMVCRagnaX.cns
 st=XMVCRagnaX.cns
 stcommon=common1.cns
 pal1=XMVCRagnaX.act
-st1=Tagteam.st
 [Arcade]
 intro.storyboard=
 ending.storyboard=

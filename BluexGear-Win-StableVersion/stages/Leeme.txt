@@ -1,0 +1,47 @@
+____________________________________________________________________________________
+
+Nombre del Stage: Blazblue Village Posprandial
+Autor: Darek
+Permiso: Closed Source
+Web: www.mugenimperiolatino.com
+
+_________________________________________________________________________________
+
+Escenario perteneciente a Taokaka de la serie Blazblue, es la version Posprandial de BBCT, aunque tambien hace aparicion en BBCS. He adaptado todos los elementos del escenario original 3D, mas sin embargo aun faltan un par de gatos, quiza en un proximo updated....
+
+Sobra decir que me gusta mucho esta version, sobre todo por el ambiente y sus colores... enjoy!!
+___________________________________________________________________________________
+
+APARTADO DE DETALLES
+_________________________________________________________________________________
+
+1.- Este Stage se queda con permiso de Closed Source, por favor no lo edites ni lo uses en tus trabajos... Cualquier duda/cuestion/critica/comentario me puedes contactar a traves de los siguientes foros/webs...
+
+• wwww.mugenimperiolatino.com
+• www.mugenguild.com
+• www.2diyer.com
+• www.comunidadmugenperu.smfforfree.com
+• www.kofmugenchile.co.cc
+• www.mugenchina.org
+
+2.- Dentro del archivo .rar encontraras un tema (Catus_Carnival.mp3) este tema ha sido elegido puesto que refleja la escencia del stage y contiene el sonido del publico, mas sin embargo puedes cambiarlo si asi lo deseas. 
+
+3.- Agradecimientos:
+
+- A DIOS
+- A Elecbyte por crear el MUGEN
+- A los creadores de Blazblue, impresionante juego!! 
+- A mi novia por soportarme con esto del MUGEN!!!
+- A Sensei Yoda por el Rip de la Luna del stage de Halloween.
+- A todos los usuarios de Mugen Imperio Latino, por sus consejos y animos para seguir creando.
+- A ti por descargarlo y usarlo
+
+4.- Disfruta y diviertete con MUGEN
+
+5.- No olvides visitar www.mugenimperiolatino.com punto de reunion de todos los gamers en Mugen de Latinoamerica y sus alrededores.
+
+____________________________________________________________________________________
+"EL MUGEN ES PARA COMPARTIR"
+
+Atte. Darek
+____________________________________________________________________________________

@@ -1,0 +1,224 @@
+[Info]
+name = "Colony GGI"
+
+;------------------------------------------------------------------------------
+[Camera]
+startx = 0
+starty = 0
+boundleft = -220
+boundright = 225
+boundhigh = -268
+boundlow = 0
+verticalfollow = 0.85
+floortension   = 70
+tension	       = 60
+
+;------------------------------------------------------------------------------
+[PlayerInfo]
+;--- Player 1 ---
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+
+;--- Player 2 ---
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+;--- Common ---
+leftbound = -1000
+rightbound = 1000
+topbound = 0
+botbound = 0
+
+;------------------------------------------------------------------------------
+[Scaling]
+topz = 0 
+botz = 50
+topscale = 1
+botscale = 1.2
+
+;------------------------------------------------------------------------------
+[Bound]
+screenleft = 10
+screenright = 10
+
+;------------------------------------------------------------------------------
+[StageInfo]
+zoffset = 216
+autoturn = 1
+;resetBG = 1
+Hires = 1
+
+;------------------------------------------------------------------------------
+[Shadow]
+color = 100,100,100
+yscale = 0.25
+;reflect = 1
+
+;------------------------------------------------------------------------------
+[Music]
+bgmusic = sound/Drumhead_Pulsation.mp3
+bgvolume = 255
+
+;------------------------------------------------------------------------------
+[BGdef]
+spr = stages/Colony_GGI.sff
+debugbg = 0
+
+;------------------------------------------------------------------------------
+[BG 0];îwåi-éR-
+type = normal
+spriteno = 0,17
+layerno = 0
+start = -320,-21
+delta = 0.0,0.0
+trans = None
+mask  = 0
+tile = 1,1
+
+[BG 0];îwåi-ó—-
+type = normal
+spriteno = 0,16
+layerno = 0
+start = -444,-148
+delta = 0.57,0.57
+trans = None
+mask  = 1
+
+[BG 0];îwåi-êŒë¢-
+type = normal
+spriteno = 0,12
+layerno = 0
+start = -679,-454
+delta = 1.63,1.6
+trans = None
+mask  = 1
+
+[BG 7];ç’ÇËêlE
+type = normal
+spriteno = 0,13
+layerno = 0
+start = -679,-454
+delta = 1.63,1.6
+trans = None
+mask  = 1
+
+[BG 7];ç’ÇËêlF
+type = normal
+spriteno = 0,14
+layerno = 0
+start = -679,-454
+delta = 1.63,1.6
+trans = None
+mask  = 1
+
+[BG 7];ç’ÇËêlG
+type = normal
+spriteno = 0,15
+layerno = 0
+start = -679,-454
+delta = 1.63,1.6
+trans = None
+mask  = 1
+
+[BG 2];âäA
+type = anim
+spriteno = 0,7
+layerno = 0
+actionno = 1
+start = -248,-214
+delta = 2,2
+trans = None
+mask  = 1
+
+[BG 1];âäB
+type = anim
+spriteno = 0,5
+layerno = 0
+actionno = 2
+start = 518,-104
+delta = 2,2
+trans = None
+mask  = 1
+
+[BG 0];ìyë‰
+type = normal
+spriteno = 0,0
+layerno = 0
+start = -760,-110
+delta = 2,2
+trans = None
+mask  = 1
+
+[BG 3];êÖ
+type = anim
+spriteno = 0,10
+layerno = 0
+actionno = 3
+start = -760,-110
+delta = 2,2
+trans = None
+mask  = 1
+
+[BG 4];ç’ÇËêlA
+type = anim
+layerno = 0
+actionno = 4
+start = -504,118
+delta = 2,2
+trans = None
+mask  = 1
+
+[BG 5];ç’ÇËêlB
+type = anim
+layerno = 0
+actionno = 5
+start = 381,134
+delta = 2,2
+trans = None
+mask  = 1
+
+[BG 6];ç’ÇËêlC
+type = normal
+spriteno = 0,1
+layerno = 0
+start = -638,138
+delta = 2,2
+trans = None
+mask  = 1
+
+[BG 7];ç’ÇËêlD
+type = normal
+spriteno = 0,4
+layerno = 0
+start = -229,108
+delta = 2,2
+trans = None
+mask  = 1
+
+[Begin action 1]
+0,6, 0,0, 4, ,A;0,6, 0,0, 4, ,A
+0,5, 0,0, 4, ,A;0,8, 0,0, 4, ,A
+0,8, 0,0, 4, ,A;0,7, 0,0, 4, ,A
+
+[Begin action 2]
+0,5, 0,0, 4, ,A
+0,6, 0,0, 4, ,A
+0,8, 0,0, 4, ,A
+
+[Begin action 3]
+0,9, 0,0, 3, ,A
+0,10, 0,0, 3, ,A
+0,11, 0,0, 3, ,A
+
+[Begin action 4]
+0,2, 0,0, 20
+0,3, 0,0, 20
+
+[Begin action 5]
+0,20, 0,0, 12
+0,19, 0,0, 12
+0,18, 0,0, 12
